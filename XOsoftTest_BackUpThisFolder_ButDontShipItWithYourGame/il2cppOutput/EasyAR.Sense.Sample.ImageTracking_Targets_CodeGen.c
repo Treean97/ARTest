@@ -1,0 +1,105 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m7170B65E32BF9AEA6F705928A2FF2E9467858DE3 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2AD5A3D021F04F31032C07FEA4D13591D2CC13E8 (void);
+extern void ImageTrackingSample_Awake_m36DC19F92DFB8553DF2FD9311C92545208226755 (void);
+extern void ImageTrackingSample_Tracking_mACD22F0D9931C43FEAAC1D97B007A321C7350888 (void);
+extern void ImageTrackingSample_UnloadTargets_mDD7474AC8B85A0684247EF6A7D807C242CA3F73E (void);
+extern void ImageTrackingSample_LoadTargets_m5953DBD8ABF34D12802065EC2DDBBBF9D0796C30 (void);
+extern void ImageTrackingSample_SwitchCenterMode_m03018A86BCE98F3F7AF5CE1EED08692D5889EBCD (void);
+extern void ImageTrackingSample_EnableCamera_m5240754C0279AAA805BD778B5C6358CAFD33CDE1 (void);
+extern void ImageTrackingSample_SwitchHFlipMode_mF38228A2E2EA0898C97A79262123776ADC081389 (void);
+extern void ImageTrackingSample_NextCamera_m86126CF5792AFD1B32D0F06A73FE50CD51ACC497 (void);
+extern void ImageTrackingSample_CreateTargets_m5C5427E0C19B8AA29388E1EC6829F5D409DF7314 (void);
+extern void ImageTrackingSample_CreateTargetNode_mDBA8B80B029DBC6DC81A316055B6DD77541CC8F3 (void);
+extern void ImageTrackingSample_HandleTargetEvents_mE15E1C1CA34522D18E2283811A5AA5F35A9D7D02 (void);
+extern void ImageTrackingSample_HandleTrackerEvents_m99A0D1624F9D5C8E0025B03701BC7E51AC9C4365 (void);
+extern void ImageTrackingSample_AdaptInputSystem_m4FBCE8B36B0EB34E088B2AB020F310FD86BE1FB7 (void);
+extern void ImageTrackingSample__ctor_m105E619932A4E60E93E2B4CE1474545CB6618BD5 (void);
+extern void U3CU3Ec__DisplayClass16_0__ctor_mB7B41C89B7C39767260CCA5A8DE381892A73750D (void);
+extern void U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__0_m207CB44948BA0E5118421E4E8944EFB261D097DE (void);
+extern void U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__1_m6B3ED177296CC71A844CA9C0CAE48AFF3C9791EE (void);
+extern void U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__2_m788EC4270C0B1F65FA59D6C09A13C188A0E7D9D4 (void);
+extern void U3CU3Ec__DisplayClass17_0__ctor_m82573F2198715C4946519BC48B1AC1F0A4786D6C (void);
+extern void U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__0_mF6A63AF8C32CFBE3E70C898A8709797D57E967DA (void);
+extern void U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__1_m1D101CECB471DBABA6C00A31E6A08752313BF4C5 (void);
+static Il2CppMethodPointer s_methodPointers[23] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m7170B65E32BF9AEA6F705928A2FF2E9467858DE3,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2AD5A3D021F04F31032C07FEA4D13591D2CC13E8,
+	ImageTrackingSample_Awake_m36DC19F92DFB8553DF2FD9311C92545208226755,
+	ImageTrackingSample_Tracking_mACD22F0D9931C43FEAAC1D97B007A321C7350888,
+	ImageTrackingSample_UnloadTargets_mDD7474AC8B85A0684247EF6A7D807C242CA3F73E,
+	ImageTrackingSample_LoadTargets_m5953DBD8ABF34D12802065EC2DDBBBF9D0796C30,
+	ImageTrackingSample_SwitchCenterMode_m03018A86BCE98F3F7AF5CE1EED08692D5889EBCD,
+	ImageTrackingSample_EnableCamera_m5240754C0279AAA805BD778B5C6358CAFD33CDE1,
+	ImageTrackingSample_SwitchHFlipMode_mF38228A2E2EA0898C97A79262123776ADC081389,
+	ImageTrackingSample_NextCamera_m86126CF5792AFD1B32D0F06A73FE50CD51ACC497,
+	ImageTrackingSample_CreateTargets_m5C5427E0C19B8AA29388E1EC6829F5D409DF7314,
+	ImageTrackingSample_CreateTargetNode_mDBA8B80B029DBC6DC81A316055B6DD77541CC8F3,
+	ImageTrackingSample_HandleTargetEvents_mE15E1C1CA34522D18E2283811A5AA5F35A9D7D02,
+	ImageTrackingSample_HandleTrackerEvents_m99A0D1624F9D5C8E0025B03701BC7E51AC9C4365,
+	ImageTrackingSample_AdaptInputSystem_m4FBCE8B36B0EB34E088B2AB020F310FD86BE1FB7,
+	ImageTrackingSample__ctor_m105E619932A4E60E93E2B4CE1474545CB6618BD5,
+	U3CU3Ec__DisplayClass16_0__ctor_mB7B41C89B7C39767260CCA5A8DE381892A73750D,
+	U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__0_m207CB44948BA0E5118421E4E8944EFB261D097DE,
+	U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__1_m6B3ED177296CC71A844CA9C0CAE48AFF3C9791EE,
+	U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__2_m788EC4270C0B1F65FA59D6C09A13C188A0E7D9D4,
+	U3CU3Ec__DisplayClass17_0__ctor_m82573F2198715C4946519BC48B1AC1F0A4786D6C,
+	U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__0_mF6A63AF8C32CFBE3E70C898A8709797D57E967DA,
+	U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__1_m1D101CECB471DBABA6C00A31E6A08752313BF4C5,
+};
+static const int32_t s_InvokerIndices[23] = 
+{
+	13428,
+	9127,
+	9127,
+	6999,
+	9127,
+	9127,
+	9127,
+	6999,
+	9127,
+	9127,
+	9127,
+	6062,
+	7145,
+	7145,
+	9127,
+	9127,
+	9127,
+	6999,
+	9127,
+	9127,
+	9127,
+	3517,
+	3517,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_Targets_CodeGenModule;
+const Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_Targets_CodeGenModule = 
+{
+	"EasyAR.Sense.Sample.ImageTracking_Targets.dll",
+	23,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

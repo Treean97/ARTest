@@ -1,0 +1,2645 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C;
+struct Action_1_tF5B9CD570B8E4C24EDC8308C4B8ED11E05D1C85B;
+struct Action_1_t9B1F83CF784EEF67EA2B81DD3A12C12D518808C1;
+struct Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2;
+struct Action_1_tDD15683D1BB2DC4CD2A36D204CFD34C598EA01A4;
+struct Action_1_tC967CBDEE293B4F5E85C9C017B37E80F6EB07186;
+struct Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB;
+struct Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915;
+struct Action_3_tA9CA85D8B5B5A2E0B976AF807E35B9DF41C21FE4;
+struct Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC;
+struct Dictionary_2_t1A958D7AFDF02A1E099C3CD26930F78357EE5E54;
+struct Dictionary_2_t91E8820476929C9FA4ED5908D07CB36040201299;
+struct IEnumerable_1_t71A46277DBD73BD4009B2B20885D2B7057593A1A;
+struct IEnumerable_1_tF42FCD24C16A2CC4047D585496162E28334040BE;
+struct IReadOnlyList_1_t9AB3615049907C1504F1427696C3B8E984BF4244;
+struct List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F;
+struct List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3;
+struct List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9;
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73;
+struct List_1_tCB9190A56C65FD59CE07C6A0EA71F30067A43D81;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4;
+struct Queue_1_tC1B949E1B696D525E75461F098A5F1F446FC52F2;
+struct Tuple_2_tD2BE476F72EEBC58CE4EC1F4E70D4413A08DEA79;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct Texture2DU5BU5D_t05332F1E3F7D4493E304C702201F9BE4F9236191;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct ARAssembly_t5F1E1DD46E4F3CA1BAF7ACAFC438564C8E5B02EB;
+struct ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct ActiveController_t4EB4253E9DEF156587927457434E3D9A74204DB6;
+struct AssembleOptions_tF4E865A9A064A669C5E57AC4DB31575B8D3C63DA;
+struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
+struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CameraDevice_tD49A49DD97F9C0B672E5617F54A2B15B7CB2ACCE;
+struct CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92;
+struct CameraImageRenderer_tD369A344F7BD6A09BE29193551EA348BC22D7078;
+struct CameraParameters_t18C9E22363BD41CD7244E2256ED25A53DB87BB53;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct DiagnosticsController_t60BAE96694A45F4DB9AFFAA45F4180E4A33D2EFE;
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB;
+struct ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633;
+struct ImageTracker_t936EBB4B806DF339985DABBA2473BC1E6B533813;
+struct ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E;
+struct ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586;
+struct InputFrameSink_tA6E249222893426FDB034E5CE860F0037DAE4F95;
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct MotionInputData_t48A7AC023324A99C0F2F6F7727570FB4DCA27197;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct OutputFrameBuffer_t9636FA51588819DCE62366622F1374365AF22F72;
+struct SessionReport_tC4A6953676B0079ACC60C383D1096B5622F00E4E;
+struct String_t;
+struct TargetCenterTransformHelper_t0F6A68309EF51C24DFC39EB8CC7E1DA324A84816;
+struct TargetController_t8B3D4F1410E51D042DF5E9C689F5C0499E43410A;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct ThreadWorker_t1ADEDA9DB0A15609FBEFE467B9CC337BF57D6D36;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct Type_t;
+struct UIToolkitInteroperabilityBridge_t8E98EE5D73E8CCAA894A1BE50049E2A06E592CDD;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t522EBB16ED9CD8F81DB58897F4E3651DC959F568;
+struct UnityXRSwitcher_t377A61256FA31D29842B1D69BAC2CEF3BC5B7790;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct FlipOptions_tDBEE7197903BB5421CBAB36A69A5E351F9B12D59;
+struct GizmoStorage_t26806CD66CD6C887D7F677090ED4F11D5BC17A68;
+struct ImageFileSourceData_t6253D5079E28B45E9A0C1A7A8CFBF74267364C2B;
+struct SourceData_t820BD36A4BB949FB046CD83C888A54CCBFF8C712;
+struct TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B;
+struct TargetSourceData_tD2DF0C33911F0782FE861D3265B2593961799224;
+struct Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19;
+struct U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A;
+struct U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868;
+struct Retainer_t21E37A78A5C591A4A1DB7494A454CCADF411A77A;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IReadOnlyCollection_1_tB4F2A14D8AB94D8492BE98245BB5E4381747D957_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t56EEA990A9326A1E3F5B8DBD45993D5047ED33C3____87C75524903FB9C36EF667505B549614DCDF1E59C3F79F4B3981A48A857A8690_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t56EEA990A9326A1E3F5B8DBD45993D5047ED33C3____CE8628882EB9B2232A1E05DB9A75A17110FC3DB0B9F0A53BD6AD31E3A6730446_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral206F3739AB9C2465DE900934CBBFEF89F05FE721;
+IL2CPP_EXTERN_C String_t* _stringLiteral420A34AE91FF1BBB6C3A379D47842B65E481607B;
+IL2CPP_EXTERN_C String_t* _stringLiteral42B857DCA1FE24EA99D77A53859F0916B3433DFA;
+IL2CPP_EXTERN_C String_t* _stringLiteral5E3F345A25DD79391E7D2F5A1FB17A6998C39DDC;
+IL2CPP_EXTERN_C String_t* _stringLiteral7E892D89E76900AA0C9D21D4E503234EAADD3377;
+IL2CPP_EXTERN_C String_t* _stringLiteral8CC692350444900910BCC8FBF78EA035E25D82BD;
+IL2CPP_EXTERN_C String_t* _stringLiteral9F03A8329C3FF255B10C7E7364B8DA986B753AB7;
+IL2CPP_EXTERN_C String_t* _stringLiteralB0410D7021B5FCF2EF5873BC8F8101B9AE4FEB04;
+IL2CPP_EXTERN_C String_t* _stringLiteralC6DA8799DE054805770C56B09BD50CBFFEF1B919;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisCameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_mF214FDEBEA8E0FC2DA97E3E2A697864FBD5DC20F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E_mE53A3FFA4ABE459947ED065249FDD6795BECAB97_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Contains_TisARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_mCB41D5D7F92A15DBC3448F13B289B38BBC03556C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m7D8098C50EE0CF157C6B09912310A1FD9474F245_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m983AB34EF043C097ABD7A430FE2DF7B27072FD1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m00711B095CC5BE52F04F5EB7283C8795DB012C35_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m8AC24534DE2BC4457AE5A07C4DBC1CFAD79759E2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m609ACDCE2DC0764BADBDC0830845FC3B1F7E6CB7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mCF3C7D2E2BA4F0177C908FDCFE7955303CBD5BED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_mA7E7AB396A6A9F6F74D39DA1733325F12C1D8784_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m60593F7A07A91E7D1CAE50AC9C5DFB3168AB3C47_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m68D0E2F78D7A7BFC737BE72E4088B86A85F55F6D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mAF83C1D692752A3A37E06DA96DF7C39F9A162F67_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mA49DC09A8485352F718D29EE01B4C549B7F60884_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindObjectsByType_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_m2BD4EF6C696E214C4EE67A3A6D717B8DFA08FDF1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__0_m207CB44948BA0E5118421E4E8944EFB261D097DE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__1_m6B3ED177296CC71A844CA9C0CAE48AFF3C9791EE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__2_m788EC4270C0B1F65FA59D6C09A13C188A0E7D9D4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__0_mF6A63AF8C32CFBE3E70C898A8709797D57E967DA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__1_m1D101CECB471DBABA6C00A31E6A08752313BF4C5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* ARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ARHorizontalFlipMode_t0888C527184463302C2CABECD652A11262DE665F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StandaloneInputModule_tD8B581E4A0A2A25B99EB002FF669C4EEED350530_0_0_0_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t06E7AA2AD08A858BBF2D79F3D08BE06A9462B702 
+{
+};
+struct List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9  : public RuntimeObject
+{
+	ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4  : public RuntimeObject
+{
+	Texture2DU5BU5D_t05332F1E3F7D4493E304C702201F9BE4F9236191* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t56EEA990A9326A1E3F5B8DBD45993D5047ED33C3  : public RuntimeObject
+{
+};
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t522EBB16ED9CD8F81DB58897F4E3651DC959F568  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct SourceData_t820BD36A4BB949FB046CD83C888A54CCBFF8C712  : public RuntimeObject
+{
+};
+struct U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A  : public RuntimeObject
+{
+	ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* ___controller;
+};
+struct U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868  : public RuntimeObject
+{
+	ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* ___tracker;
+};
+struct Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5 
+{
+	List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* ____current;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1 
+{
+	List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ____current;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Unit_t934B7E7CA82AE6BF510C860F0D2D37CB95C1F185 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Unit_t934B7E7CA82AE6BF510C860F0D2D37CB95C1F185__padding[1];
+	};
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A 
+{
+	int32_t ___m_X;
+	int32_t ___m_Y;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D126_t03BD8172D0F0AA5A0555ED259E9DF226BEF06D79 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D126_t03BD8172D0F0AA5A0555ED259E9DF226BEF06D79__padding[126];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D50_t8142CDCADCE7F2E0A69E105E9DE6839A99D77E45 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D50_t8142CDCADCE7F2E0A69E105E9DE6839A99D77E45__padding[50];
+	};
+};
+#pragma pack(pop, tp)
+struct UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88 
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	bool ___sendEvents;
+	bool ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88_marshaled_pinvoke
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88_marshaled_com
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19  : public SourceData_t820BD36A4BB949FB046CD83C888A54CCBFF8C712
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___Texture;
+	String_t* ___Name;
+	float ___Scale;
+};
+struct MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct Nullable_1_t33D5AB3CF72EDE570A226DE48EF7C3A10F25A7C4 
+{
+	bool ___hasValue;
+	UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88 ___value;
+};
+struct AndroidCameraApiType_tA89150890126C80C1AB5E2140C6A35B60325ECD7 
+{
+	int32_t ___value__;
+};
+struct CameraDeviceFocusMode_tF6358BFCAFE1952384E8924D580831AAE2CF18F2 
+{
+	int32_t ___value__;
+};
+struct CameraDevicePreference_tE71D429BB97A6E2FCDAFFB7C3CC2A75A0C47C8F5 
+{
+	int32_t ___value__;
+};
+struct CameraDeviceType_tEC0A6DFD43DF3C16C24B7D9C5EBB74E957A7694E 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct FindObjectsSortMode_t3C83F8C6588F54EBB0CEB21F79D54CD19460AE9E 
+{
+	int32_t ___value__;
+};
+struct ImageTrackerMode_tC17F8B4652FDACBFFA95BD9471214C2F2E28010F 
+{
+	int32_t ___value__;
+};
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct OptionalTag_t7AFA0D3EA60C293DA32B44FE0FB2BCD094467A4C 
+{
+	int32_t ___value__;
+};
+struct PathType_t3B10BE1123583262D4470839DF00531DFC543A20 
+{
+	int32_t ___value__;
+};
+struct RefBase_tD2A748D10CECAAD8DD367977128D0B22A01F604E  : public RuntimeObject
+{
+	intptr_t ___cdata_;
+	Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* ___deleter_;
+	Retainer_t21E37A78A5C591A4A1DB7494A454CCADF411A77A* ___retainer_;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct ARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932 
+{
+	int32_t ___value__;
+};
+struct ARHorizontalFlipMode_t0888C527184463302C2CABECD652A11262DE665F 
+{
+	int32_t ___value__;
+};
+struct SessionState_t43BACB2AD95D1537D9960349E5C71308E6C03268 
+{
+	int32_t ___value__;
+};
+struct CameraDeviceOpenMethod_t067AC7CCDC7D51E7191B40C5F0AD081A635804FC 
+{
+	int32_t ___value__;
+};
+struct DataSource_t75DD41A49A2A2523E5D3E9D24886AE60A6877B89 
+{
+	int32_t ___value__;
+};
+struct Optional_1_tD0E3815B9E068CFFDF5D686E5DBB73B4B5B4A0CA 
+{
+	int32_t ____Tag;
+	Unit_t934B7E7CA82AE6BF510C860F0D2D37CB95C1F185 ___None;
+	Tuple_2_tD2BE476F72EEBC58CE4EC1F4E70D4413A08DEA79* ___Some;
+};
+struct Optional_1_t900DDDF790B562B704CF33648F9A6FE90E9B5DF6 
+{
+	int32_t ____Tag;
+	Unit_t934B7E7CA82AE6BF510C860F0D2D37CB95C1F185 ___None;
+	bool ___Some;
+};
+struct Optional_1_tE7438B16A5596BE4DF9FAAF634D49D6F82AF1EBA 
+{
+	int32_t ____Tag;
+	Unit_t934B7E7CA82AE6BF510C860F0D2D37CB95C1F185 ___None;
+	int32_t ___Some;
+};
+struct Optional_1_t65F01558C92E4E358C355EE7C02549EC3DC67953 
+{
+	int32_t ____Tag;
+	Unit_t934B7E7CA82AE6BF510C860F0D2D37CB95C1F185 ___None;
+	SourceData_t820BD36A4BB949FB046CD83C888A54CCBFF8C712* ___Some;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct Target_tA508D592FB808ECACF85DAE26AF44B5586D6C836  : public RefBase_tD2A748D10CECAAD8DD367977128D0B22A01F604E
+{
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct FlipOptions_tDBEE7197903BB5421CBAB36A69A5E351F9B12D59  : public RuntimeObject
+{
+	int32_t ___BackCamera;
+	int32_t ___FrontCamera;
+};
+struct TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B  : public SourceData_t820BD36A4BB949FB046CD83C888A54CCBFF8C712
+{
+	int32_t ___PathType;
+	String_t* ___Path;
+};
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C  : public MulticastDelegate_t
+{
+};
+struct Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB  : public MulticastDelegate_t
+{
+};
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB  : public Target_tA508D592FB808ECACF85DAE26AF44B5586D6C836
+{
+};
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___AutoStart;
+	int32_t ___CenterMode;
+	FlipOptions_tDBEE7197903BB5421CBAB36A69A5E351F9B12D59* ___HorizontalFlip;
+	OutputFrameBuffer_t9636FA51588819DCE62366622F1374365AF22F72* ___oFrameBuffer;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___specificTargetCenter;
+	AssembleOptions_tF4E865A9A064A669C5E57AC4DB31575B8D3C63DA* ___assembleOptions;
+	int32_t ___state;
+	DiagnosticsController_t60BAE96694A45F4DB9AFFAA45F4180E4A33D2EFE* ___diagnostics;
+	UnityXRSwitcher_t377A61256FA31D29842B1D69BAC2CEF3BC5B7790* ___xrSwitcher;
+	bool ___hasData;
+	int32_t ___frameIndex;
+	MotionInputData_t48A7AC023324A99C0F2F6F7727570FB4DCA27197* ___frameMotion;
+	int32_t ___frameFlip;
+	CameraParameters_t18C9E22363BD41CD7244E2256ED25A53DB87BB53* ___frameCameraParameters;
+	Optional_1_tD0E3815B9E068CFFDF5D686E5DBB73B4B5B4A0CA ___assmbleDumpMessage;
+	List_1_tCB9190A56C65FD59CE07C6A0EA71F30067A43D81* ___startedComponets;
+	bool ___hasFramePlayerError;
+	float ___preAspect;
+	CameraImageRenderer_tD369A344F7BD6A09BE29193551EA348BC22D7078* ___lastCameraImageRenderer;
+	Optional_1_tE7438B16A5596BE4DF9FAAF634D49D6F82AF1EBA ___lastFrameIndex;
+	int32_t ___initializeCount;
+	int32_t ___errorIndex;
+	Action_1_tDD15683D1BB2DC4CD2A36D204CFD34C598EA01A4* ___StateChanged;
+	Action_1_tC967CBDEE293B4F5E85C9C017B37E80F6EB07186* ___AssembleUpdate;
+	Action_1_t9B1F83CF784EEF67EA2B81DD3A12C12D518808C1* ___InputFrameUpdate;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___PostSessionUpdate;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___SessionUpdate;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CCenterObjectU3Ek__BackingField;
+	ARAssembly_t5F1E1DD46E4F3CA1BAF7ACAFC438564C8E5B02EB* ___U3CAssemblyU3Ek__BackingField;
+	SessionReport_tC4A6953676B0079ACC60C383D1096B5622F00E4E* ___U3CReportU3Ek__BackingField;
+};
+struct FrameFilter_tEF74686432B3C28E888F223945B0BF3FC58AD214  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct FrameSource_tEFFB44317ECA60F900CBDDA05D06E675C6CC88CD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	InputFrameSink_tA6E249222893426FDB034E5CE860F0037DAE4F95* ___sink;
+	int32_t ___bufferCapacity;
+};
+struct ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* ___Session;
+	List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* ___TargetTextures;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Panda;
+	List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* ___targets;
+	ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* ___imageTracker;
+	CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* ___cameraDevice;
+};
+struct TargetController_t8B3D4F1410E51D042DF5E9C689F5C0499E43410A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ActiveController_t4EB4253E9DEF156587927457434E3D9A74204DB6* ___activeController;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___TargetFound;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___TargetLost;
+	bool ___U3CIsTrackedU3Ek__BackingField;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92  : public FrameSource_tEFFB44317ECA60F900CBDDA05D06E675C6CC88CD
+{
+	int32_t ___CameraOpenMethod;
+	int32_t ___CameraOpenType;
+	int32_t ___CameraOpenIndex;
+	CameraDevice_tD49A49DD97F9C0B672E5617F54A2B15B7CB2ACCE* ___device;
+	bool ___hasDesiredAndroidCameraApiType;
+	int32_t ___desiredAndroidCameraApiType;
+	bool ___hasDesiredFocusMode;
+	int32_t ___desiredFocusMode;
+	bool ___hasDesiredSize;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___desiredSize;
+	bool ___hasDesiredCameraPreference;
+	int32_t ___desiredCameraPreference;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cameraCandidate;
+	bool ___willOpen;
+	Optional_1_t900DDDF790B562B704CF33648F9A6FE90E9B5DF6 ___delayedOpen;
+	bool ___started;
+	ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* ___session;
+	bool ___isLargeScale;
+	Action_3_tA9CA85D8B5B5A2E0B976AF807E35B9DF41C21FE4* ___DeviceOpened;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___DeviceClosed;
+	Action_1_tF5B9CD570B8E4C24EDC8308C4B8ED11E05D1C85B* ___DeviceStateChanged;
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F* ___m_SystemInputModules;
+	BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* ___m_CurrentInputModule;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FirstSelected;
+	bool ___m_sendNavigationEvents;
+	int32_t ___m_DragThreshold;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CurrentSelected;
+	bool ___m_HasFocus;
+	bool ___m_SelectionGuard;
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_DummyData;
+	UIToolkitInteroperabilityBridge_t8E98EE5D73E8CCAA894A1BE50049E2A06E592CDD* ___m_UIToolkitInterop;
+};
+struct ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633  : public TargetController_t8B3D4F1410E51D042DF5E9C689F5C0499E43410A
+{
+	bool ___HorizontalFlip;
+	GizmoStorage_t26806CD66CD6C887D7F677090ED4F11D5BC17A68* ___GizmoData;
+	int32_t ___SourceType;
+	ImageFileSourceData_t6253D5079E28B45E9A0C1A7A8CFBF74267364C2B* ___ImageFileSource;
+	TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B* ___TargetDataFileSource;
+	Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19* ___Texture2DSource;
+	TargetSourceData_tD2DF0C33911F0782FE861D3265B2593961799224* ___TargetSource;
+	bool ___trackerHasSet;
+	ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* ___tracker;
+	ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* ___holder;
+	float ___scale;
+	float ___scaleX;
+	bool ___preHFlip;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___TargetDataLoad;
+	ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* ___U3CTargetU3Ek__BackingField;
+	bool ___U3CIsLoadedU3Ek__BackingField;
+	Optional_1_t65F01558C92E4E358C355EE7C02549EC3DC67953 ___U3CLoadingSourceU3Ek__BackingField;
+	Optional_1_t900DDDF790B562B704CF33648F9A6FE90E9B5DF6 ___U3CLoadingResultU3Ek__BackingField;
+};
+struct ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E  : public FrameFilter_tEF74686432B3C28E888F223945B0BF3FC58AD214
+{
+	int32_t ___TrackerMode;
+	ImageTracker_t936EBB4B806DF339985DABBA2473BC1E6B533813* ___tracker;
+	int32_t ___simultaneousNum;
+	bool ___enableMotionFusion;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___previousTargetIDs;
+	Dictionary_2_t91E8820476929C9FA4ED5908D07CB36040201299* ___allTargetController;
+	bool ___horizontalFlip;
+	TargetCenterTransformHelper_t0F6A68309EF51C24DFC39EB8CC7E1DA324A84816* ___targetCenterTransformHelper;
+	List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* ___holdingTargets;
+	Dictionary_2_t1A958D7AFDF02A1E099C3CD26930F78357EE5E54* ___loadingTargets;
+	ThreadWorker_t1ADEDA9DB0A15609FBEFE467B9CC337BF57D6D36* ___worker;
+	ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* ___session;
+	Queue_1_tC1B949E1B696D525E75461F098A5F1F446FC52F2* ___dumpMessages;
+	Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB* ___TargetLoad;
+	Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB* ___TargetUnload;
+};
+struct List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9_StaticFields
+{
+	ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4_StaticFields
+{
+	Texture2DU5BU5D_t05332F1E3F7D4493E304C702201F9BE4F9236191* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t56EEA990A9326A1E3F5B8DBD45993D5047ED33C3_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D50_t8142CDCADCE7F2E0A69E105E9DE6839A99D77E45 ___87C75524903FB9C36EF667505B549614DCDF1E59C3F79F4B3981A48A857A8690;
+	__StaticArrayInitTypeSizeU3D126_t03BD8172D0F0AA5A0555ED259E9DF226BEF06D79 ___CE8628882EB9B2232A1E05DB9A75A17110FC3DB0B9F0A53BD6AD31E3A6730446;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35_StaticFields
+{
+	ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* ___U3CCurrentU3Ek__BackingField;
+};
+struct CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_StaticFields
+{
+	RuntimeObject* ___availableCenterMode;
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_StaticFields
+{
+	List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3* ___m_EventSystems;
+	Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC* ___s_RaycastComparer;
+	Nullable_1_t33D5AB3CF72EDE570A226DE48EF7C3A10F25A7C4 ___s_UIToolkitOverrideConfigOld;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* m_Items[1];
+
+	inline ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Object_FindObjectsByType_TisRuntimeObject_m9F3B83321CD4E4F4F764805ADCEF338CF2BA8409_gshared (int32_t ___0_sortMode, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerable_Contains_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m602B6B6AA4BA63724E4AD5794FC03941BCD8D7E8_gshared (RuntimeObject* ___0_source, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared (RuntimeObject* ___0_original, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501_gshared (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m460C72FDDE5FF8033C7BD19A07CF4E3F473F7414_gshared (Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_AdaptInputSystem_m4FBCE8B36B0EB34E088B2AB020F310FD86BE1FB7 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) ;
+inline ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* Component_GetComponentInChildren_TisImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E_mE53A3FFA4ABE459947ED065249FDD6795BECAB97 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
+}
+inline CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* Component_GetComponentInChildren_TisCameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_mF214FDEBEA8E0FC2DA97E3E2A697864FBD5DC20F (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
+}
+inline ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C* Object_FindObjectsByType_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_m2BD4EF6C696E214C4EE67A3A6D717B8DFA08FDF1 (int32_t ___0_sortMode, const RuntimeMethod* method)
+{
+	return ((  ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C* (*) (int32_t, const RuntimeMethod*))Object_FindObjectsByType_TisRuntimeObject_m9F3B83321CD4E4F4F764805ADCEF338CF2BA8409_gshared)(___0_sortMode, method);
+}
+inline void List_1_Add_m60593F7A07A91E7D1CAE50AC9C5DFB3168AB3C47_inline (List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* __this, ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9*, ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_HandleTargetEvents_mE15E1C1CA34522D18E2283811A5AA5F35A9D7D02 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* ___0_controller, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ARSession_get_SpecificTargetCenter_m073B46773B64BF6D53D8209991AAFBCCD659FD1F_inline (ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARSession_set_SpecificTargetCenter_mFF8A89316911782D564948580448B36C953EC2D2 (ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_HandleTrackerEvents_m99A0D1624F9D5C8E0025B03701BC7E51AC9C4365 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* ___0_tracker, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_CreateTargets_m5C5427E0C19B8AA29388E1EC6829F5D409DF7314 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+inline Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5 List_1_GetEnumerator_mAF83C1D692752A3A37E06DA96DF7C39F9A162F67 (List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5 (*) (List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m983AB34EF043C097ABD7A430FE2DF7B27072FD1F (Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* Enumerator_get_Current_m609ACDCE2DC0764BADBDC0830845FC3B1F7E6CB7_inline (Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5* __this, const RuntimeMethod* method)
+{
+	return ((  ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* (*) (Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetController_set_Tracker_mA9CCBB114C5479A0679FEF22A74B67DB9D1AD26B (ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* __this, ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* ___0_value, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m8AC24534DE2BC4457AE5A07C4DBC1CFAD79759E2 (Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ARSession_get_AvailableCenterMode_mE27967E2CB5EA8A2D922FCEF0576EBB8646D2610 (ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeArray* Enum_GetValues_m803B9D68C367FAABC5AFB6B5B52775C8A573CEF9 (Type_t* ___0_enumType, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57 (RuntimeArray* __this, const RuntimeMethod* method) ;
+inline bool Enumerable_Contains_TisARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_mCB41D5D7F92A15DBC3448F13B289B38BBC03556C (RuntimeObject* ___0_source, int32_t ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RuntimeObject*, int32_t, const RuntimeMethod*))Enumerable_Contains_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m602B6B6AA4BA63724E4AD5794FC03941BCD8D7E8_gshared)(___0_source, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CameraDeviceFrameSource_get_Opened_m512D9B7A25B7251D74132CC192213349163EB673 (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CameraDeviceFrameSource_get_CameraCount_m1E8FFD587E4274A71755EB8346BD517740EF8182 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CameraDeviceFrameSource_get_Index_m09821B9D59E0333252FB2AC4286BAFC57AF20F36 (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64 (CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* ImageTrackingSample_CreateTargetNode_mDBA8B80B029DBC6DC81A316055B6DD77541CC8F3 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, String_t* ___0_targetName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetDataFileSourceData__ctor_m55BE27C785B522450B12B613325E49C7731E0055 (TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetController_set_Source_m11C9CEAC76BFECE1A537E95036718B8C24578256 (ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* __this, SourceData_t820BD36A4BB949FB046CD83C888A54CCBFF8C712* ___0_value, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared)(___0_original, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) ;
+inline Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1 List_1_GetEnumerator_m68D0E2F78D7A7BFC737BE72E4088B86A85F55F6D (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1 (*) (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m7D8098C50EE0CF157C6B09912310A1FD9474F245 (Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* Enumerator_get_Current_mCF3C7D2E2BA4F0177C908FDCFE7955303CBD5BED_inline (Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1* __this, const RuntimeMethod* method)
+{
+	return ((  Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* (*) (Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2DSourceData__ctor_mB0D1AB44F449D6F11E6AF033875752AC7646C830 (Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19* __this, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m00711B095CC5BE52F04F5EB7283C8795DB012C35 (Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+inline ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* GameObject_AddComponent_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_mA7E7AB396A6A9F6F74D39DA1733325F12C1D8784 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0__ctor_mB7B41C89B7C39767260CCA5A8DE381892A73750D (U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* __this, const RuntimeMethod* method) ;
+inline void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetController_add_TargetDataLoad_m0335C402838427C64B30BAA7EB7F64B13E001432 (ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* __this, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetController_add_TargetFound_mD4B9C4D3662E282B491F617E22AA14D3775AB57B (TargetController_t8B3D4F1410E51D042DF5E9C689F5C0499E43410A* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetController_add_TargetLost_mB6790A7172B5C303E3143155672D27F4BF6E4ECC (TargetController_t8B3D4F1410E51D042DF5E9C689F5C0499E43410A* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0__ctor_m82573F2198715C4946519BC48B1AC1F0A4786D6C (U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* __this, const RuntimeMethod* method) ;
+inline void Action_2__ctor_m51F571D217CA086C3B43B7724793BC769379AB2B (Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m460C72FDDE5FF8033C7BD19A07CF4E3F473F7414_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackerFrameFilter_add_TargetLoad_mAB03EA3C315CD3EBC0380215A0FF9B2B4B9DE908 (ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* __this, Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackerFrameFilter_add_TargetUnload_mA603939F5409FA5CC437E4D3818F33A4FDE0EE48 (ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* __this, Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* Component_GetComponent_m4352437B839B9601EB007CAC1007C8E1FB8A427D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, Type_t* ___0_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* GameObject_AddComponent_mDF246771EC34613FA6AF0C98D443368FB43E9F36 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, Type_t* ___0_componentType, const RuntimeMethod* method) ;
+inline void List_1__ctor_mA49DC09A8485352F718D29EE01B4C549B7F60884 (List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SourceData_t820BD36A4BB949FB046CD83C888A54CCBFF8C712* ImageTargetController_get_Source_m94FD7597ED4860CBCBDE30FF9B34F19252D1DF5C (ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline (ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ImageTargetController_get_Size_m81B778F198A8854934002A378CB53FF3A6D50225 (ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 45751
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m7170B65E32BF9AEA6F705928A2FF2E9467858DE3 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t56EEA990A9326A1E3F5B8DBD45993D5047ED33C3____87C75524903FB9C36EF667505B549614DCDF1E59C3F79F4B3981A48A857A8690_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t56EEA990A9326A1E3F5B8DBD45993D5047ED33C3____CE8628882EB9B2232A1E05DB9A75A17110FC3DB0B9F0A53BD6AD31E3A6730446_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)126));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t56EEA990A9326A1E3F5B8DBD45993D5047ED33C3____CE8628882EB9B2232A1E05DB9A75A17110FC3DB0B9F0A53BD6AD31E3A6730446_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)50));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t56EEA990A9326A1E3F5B8DBD45993D5047ED33C3____87C75524903FB9C36EF667505B549614DCDF1E59C3F79F4B3981A48A857A8690_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 1;
+		(&V_0)->___TotalTypes = 1;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 45752
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2AD5A3D021F04F31032C07FEA4D13591D2CC13E8 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t522EBB16ED9CD8F81DB58897F4E3651DC959F568* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshal_pinvoke(const MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065& unmarshaled, MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshal_pinvoke_back(const MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshaled_pinvoke& marshaled, MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshal_pinvoke_cleanup(MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshal_com(const MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065& unmarshaled, MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshal_com_back(const MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshaled_com& marshaled, MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshal_com_cleanup(MonoScriptData_t1F74658D2D65DCB4EABE8673E1574F9A23026065_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 45753
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_Awake_m36DC19F92DFB8553DF2FD9311C92545208226755 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisCameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_mF214FDEBEA8E0FC2DA97E3E2A697864FBD5DC20F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E_mE53A3FFA4ABE459947ED065249FDD6795BECAB97_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m60593F7A07A91E7D1CAE50AC9C5DFB3168AB3C47_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectsByType_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_m2BD4EF6C696E214C4EE67A3A6D717B8DFA08FDF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C* V_0 = NULL;
+	int32_t V_1 = 0;
+	ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* V_2 = NULL;
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:48>
+		ImageTrackingSample_AdaptInputSystem_m4FBCE8B36B0EB34E088B2AB020F310FD86BE1FB7(__this, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:49>
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_0 = __this->___Session;
+		NullCheck(L_0);
+		ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_1;
+		L_1 = Component_GetComponentInChildren_TisImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E_mE53A3FFA4ABE459947ED065249FDD6795BECAB97(L_0, Component_GetComponentInChildren_TisImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E_mE53A3FFA4ABE459947ED065249FDD6795BECAB97_RuntimeMethod_var);
+		__this->___imageTracker = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___imageTracker), (void*)L_1);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:50>
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_2 = __this->___Session;
+		NullCheck(L_2);
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_3;
+		L_3 = Component_GetComponentInChildren_TisCameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_mF214FDEBEA8E0FC2DA97E3E2A697864FBD5DC20F(L_2, Component_GetComponentInChildren_TisCameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_mF214FDEBEA8E0FC2DA97E3E2A697864FBD5DC20F_RuntimeMethod_var);
+		__this->___cameraDevice = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraDevice), (void*)L_3);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:55>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C* L_4;
+		L_4 = Object_FindObjectsByType_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_m2BD4EF6C696E214C4EE67A3A6D717B8DFA08FDF1(0, Object_FindObjectsByType_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_m2BD4EF6C696E214C4EE67A3A6D717B8DFA08FDF1_RuntimeMethod_var);
+		V_0 = L_4;
+		V_1 = 0;
+		goto IL_0071;
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:53>
+		ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C* L_5 = V_0;
+		int32_t L_6 = V_1;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		V_2 = L_8;
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:61>
+		List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* L_9 = __this->___targets;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_10 = V_2;
+		NullCheck(L_9);
+		List_1_Add_m60593F7A07A91E7D1CAE50AC9C5DFB3168AB3C47_inline(L_9, L_10, List_1_Add_m60593F7A07A91E7D1CAE50AC9C5DFB3168AB3C47_RuntimeMethod_var);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:62>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_11 = V_2;
+		ImageTrackingSample_HandleTargetEvents_mE15E1C1CA34522D18E2283811A5AA5F35A9D7D02(__this, L_11, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:63>
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_12 = __this->___Session;
+		NullCheck(L_12);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
+		L_13 = ARSession_get_SpecificTargetCenter_m073B46773B64BF6D53D8209991AAFBCCD659FD1F_inline(L_12, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_13, NULL);
+		if (L_14)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:65>
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_15 = __this->___Session;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_16 = V_2;
+		NullCheck(L_16);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
+		L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_16, NULL);
+		NullCheck(L_15);
+		ARSession_set_SpecificTargetCenter_mFF8A89316911782D564948580448B36C953EC2D2(L_15, L_17, NULL);
+	}
+
+IL_006d:
+	{
+		int32_t L_18 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+	}
+
+IL_0071:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:53>
+		int32_t L_19 = V_1;
+		ImageTargetControllerU5BU5D_tB3C22537BD5B391DF4220D799B681F053D1B6A3C* L_20 = V_0;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length)))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:69>
+		ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_21 = __this->___imageTracker;
+		ImageTrackingSample_HandleTrackerEvents_m99A0D1624F9D5C8E0025B03701BC7E51AC9C4365(__this, L_21, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:70>
+		ImageTrackingSample_CreateTargets_m5C5427E0C19B8AA29388E1EC6829F5D409DF7314(__this, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:71>
+		return;
+	}
+}
+// Method Definition Index: 45754
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_Tracking_mACD22F0D9931C43FEAAC1D97B007A321C7350888 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, bool ___0_on, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:75>
+		ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_0 = __this->___imageTracker;
+		bool L_1 = ___0_on;
+		NullCheck(L_0);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_0, L_1, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 45755
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_UnloadTargets_mDD7474AC8B85A0684247EF6A7D807C242CA3F73E (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m983AB34EF043C097ABD7A430FE2DF7B27072FD1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m8AC24534DE2BC4457AE5A07C4DBC1CFAD79759E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m609ACDCE2DC0764BADBDC0830845FC3B1F7E6CB7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mAF83C1D692752A3A37E06DA96DF7C39F9A162F67_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:80>
+		List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* L_0 = __this->___targets;
+		NullCheck(L_0);
+		Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5 L_1;
+		L_1 = List_1_GetEnumerator_mAF83C1D692752A3A37E06DA96DF7C39F9A162F67(L_0, List_1_GetEnumerator_mAF83C1D692752A3A37E06DA96DF7C39F9A162F67_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0026:
+			{
+				Enumerator_Dispose_m983AB34EF043C097ABD7A430FE2DF7B27072FD1F((&V_0), Enumerator_Dispose_m983AB34EF043C097ABD7A430FE2DF7B27072FD1F_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_001b_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:80>
+				ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_2;
+				L_2 = Enumerator_get_Current_m609ACDCE2DC0764BADBDC0830845FC3B1F7E6CB7_inline((&V_0), Enumerator_get_Current_m609ACDCE2DC0764BADBDC0830845FC3B1F7E6CB7_RuntimeMethod_var);
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:82>
+				NullCheck(L_2);
+				ImageTargetController_set_Tracker_mA9CCBB114C5479A0679FEF22A74B67DB9D1AD26B(L_2, (ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E*)NULL, NULL);
+			}
+
+IL_001b_1:
+			{
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:80>
+				bool L_3;
+				L_3 = Enumerator_MoveNext_m8AC24534DE2BC4457AE5A07C4DBC1CFAD79759E2((&V_0), Enumerator_MoveNext_m8AC24534DE2BC4457AE5A07C4DBC1CFAD79759E2_RuntimeMethod_var);
+				if (L_3)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0034;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:84>
+		return;
+	}
+}
+// Method Definition Index: 45756
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_LoadTargets_m5953DBD8ABF34D12802065EC2DDBBBF9D0796C30 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m983AB34EF043C097ABD7A430FE2DF7B27072FD1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m8AC24534DE2BC4457AE5A07C4DBC1CFAD79759E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m609ACDCE2DC0764BADBDC0830845FC3B1F7E6CB7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mAF83C1D692752A3A37E06DA96DF7C39F9A162F67_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:88>
+		List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* L_0 = __this->___targets;
+		NullCheck(L_0);
+		Enumerator_t014D36F7E68A5F991E7AD946BCF593A4009212D5 L_1;
+		L_1 = List_1_GetEnumerator_mAF83C1D692752A3A37E06DA96DF7C39F9A162F67(L_0, List_1_GetEnumerator_mAF83C1D692752A3A37E06DA96DF7C39F9A162F67_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_002b:
+			{
+				Enumerator_Dispose_m983AB34EF043C097ABD7A430FE2DF7B27072FD1F((&V_0), Enumerator_Dispose_m983AB34EF043C097ABD7A430FE2DF7B27072FD1F_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0020_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:88>
+				ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_2;
+				L_2 = Enumerator_get_Current_m609ACDCE2DC0764BADBDC0830845FC3B1F7E6CB7_inline((&V_0), Enumerator_get_Current_m609ACDCE2DC0764BADBDC0830845FC3B1F7E6CB7_RuntimeMethod_var);
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:90>
+				ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_3 = __this->___imageTracker;
+				NullCheck(L_2);
+				ImageTargetController_set_Tracker_mA9CCBB114C5479A0679FEF22A74B67DB9D1AD26B(L_2, L_3, NULL);
+			}
+
+IL_0020_1:
+			{
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:88>
+				bool L_4;
+				L_4 = Enumerator_MoveNext_m8AC24534DE2BC4457AE5A07C4DBC1CFAD79759E2((&V_0), Enumerator_MoveNext_m8AC24534DE2BC4457AE5A07C4DBC1CFAD79759E2_RuntimeMethod_var);
+				if (L_4)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0039;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0039:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:92>
+		return;
+	}
+}
+// Method Definition Index: 45757
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_SwitchCenterMode_m03018A86BCE98F3F7AF5CE1EED08692D5889EBCD (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Contains_TisARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_mCB41D5D7F92A15DBC3448F13B289B38BBC03556C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_tB4F2A14D8AB94D8492BE98245BB5E4381747D957_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:96>
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_0 = __this->___Session;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = ARSession_get_AvailableCenterMode_mE27967E2CB5EA8A2D922FCEF0576EBB8646D2610(L_0, NULL);
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IReadOnlyCollection_1_tB4F2A14D8AB94D8492BE98245BB5E4381747D957_il2cpp_TypeInfo_var, L_1);
+		if (L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:96>
+		return;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:99>
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_3 = __this->___Session;
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_4 = __this->___Session;
+		NullCheck(L_4);
+		int32_t L_5 = L_4->___CenterMode;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (ARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_7;
+		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
+		RuntimeArray* L_8;
+		L_8 = Enum_GetValues_m803B9D68C367FAABC5AFB6B5B52775C8A573CEF9(L_7, NULL);
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
+		NullCheck(L_3);
+		L_3->___CenterMode = ((int32_t)(((int32_t)il2cpp_codegen_add((int32_t)L_5, 1))%L_9));
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:100>
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_10 = __this->___Session;
+		NullCheck(L_10);
+		RuntimeObject* L_11;
+		L_11 = ARSession_get_AvailableCenterMode_mE27967E2CB5EA8A2D922FCEF0576EBB8646D2610(L_10, NULL);
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_12 = __this->___Session;
+		NullCheck(L_12);
+		int32_t L_13 = L_12->___CenterMode;
+		bool L_14;
+		L_14 = Enumerable_Contains_TisARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_mCB41D5D7F92A15DBC3448F13B289B38BBC03556C(L_11, L_13, Enumerable_Contains_TisARCenterMode_tC804801C4A509F236BAA0734545AA75E5BA91932_mCB41D5D7F92A15DBC3448F13B289B38BBC03556C_RuntimeMethod_var);
+		if (!L_14)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:102>
+		return;
+	}
+}
+// Method Definition Index: 45758
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_EnableCamera_m5240754C0279AAA805BD778B5C6358CAFD33CDE1 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, bool ___0_enable, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:106>
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_0 = __this->___cameraDevice;
+		bool L_1 = ___0_enable;
+		NullCheck(L_0);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_0, L_1, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:107>
+		return;
+	}
+}
+// Method Definition Index: 45759
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_SwitchHFlipMode_mF38228A2E2EA0898C97A79262123776ADC081389 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARHorizontalFlipMode_t0888C527184463302C2CABECD652A11262DE665F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:111>
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_0 = __this->___Session;
+		NullCheck(L_0);
+		FlipOptions_tDBEE7197903BB5421CBAB36A69A5E351F9B12D59* L_1 = L_0->___HorizontalFlip;
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_2 = __this->___Session;
+		NullCheck(L_2);
+		FlipOptions_tDBEE7197903BB5421CBAB36A69A5E351F9B12D59* L_3 = L_2->___HorizontalFlip;
+		NullCheck(L_3);
+		int32_t L_4 = L_3->___FrontCamera;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (ARHorizontalFlipMode_t0888C527184463302C2CABECD652A11262DE665F_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
+		RuntimeArray* L_7;
+		L_7 = Enum_GetValues_m803B9D68C367FAABC5AFB6B5B52775C8A573CEF9(L_6, NULL);
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_7, NULL);
+		NullCheck(L_1);
+		L_1->___FrontCamera = ((int32_t)(((int32_t)il2cpp_codegen_add((int32_t)L_4, 1))%L_8));
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:112>
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_9 = __this->___Session;
+		NullCheck(L_9);
+		FlipOptions_tDBEE7197903BB5421CBAB36A69A5E351F9B12D59* L_10 = L_9->___HorizontalFlip;
+		ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* L_11 = __this->___Session;
+		NullCheck(L_11);
+		FlipOptions_tDBEE7197903BB5421CBAB36A69A5E351F9B12D59* L_12 = L_11->___HorizontalFlip;
+		NullCheck(L_12);
+		int32_t L_13 = L_12->___BackCamera;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_14 = { reinterpret_cast<intptr_t> (ARHorizontalFlipMode_t0888C527184463302C2CABECD652A11262DE665F_0_0_0_var) };
+		Type_t* L_15;
+		L_15 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_14, NULL);
+		RuntimeArray* L_16;
+		L_16 = Enum_GetValues_m803B9D68C367FAABC5AFB6B5B52775C8A573CEF9(L_15, NULL);
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_16, NULL);
+		NullCheck(L_10);
+		L_10->___BackCamera = ((int32_t)(((int32_t)il2cpp_codegen_add((int32_t)L_13, 1))%L_17));
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:113>
+		return;
+	}
+}
+// Method Definition Index: 45760
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_NextCamera_m86126CF5792AFD1B32D0F06A73FE50CD51ACC497 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:117>
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_0 = __this->___cameraDevice;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_2 = __this->___cameraDevice;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = CameraDeviceFrameSource_get_Opened_m512D9B7A25B7251D74132CC192213349163EB673(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_001b;
+		}
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:117>
+		return;
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:118>
+		il2cpp_codegen_runtime_class_init_inline(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_il2cpp_TypeInfo_var);
+		int32_t L_4;
+		L_4 = CameraDeviceFrameSource_get_CameraCount_m1E8FFD587E4274A71755EB8346BD517740EF8182(NULL);
+		if (L_4)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:120>
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_5 = __this->___cameraDevice;
+		NullCheck(L_5);
+		CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F(L_5, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:121>
+		return;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:124>
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_6 = __this->___cameraDevice;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = CameraDeviceFrameSource_get_Index_m09821B9D59E0333252FB2AC4286BAFC57AF20F36(L_6, NULL);
+		V_0 = L_7;
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:125>
+		int32_t L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92_il2cpp_TypeInfo_var);
+		int32_t L_9;
+		L_9 = CameraDeviceFrameSource_get_CameraCount_m1E8FFD587E4274A71755EB8346BD517740EF8182(NULL);
+		V_0 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_8, 1))%L_9));
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:126>
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_10 = __this->___cameraDevice;
+		NullCheck(L_10);
+		L_10->___CameraOpenMethod = 1;
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:127>
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_11 = __this->___cameraDevice;
+		int32_t L_12 = V_0;
+		NullCheck(L_11);
+		L_11->___CameraOpenIndex = L_12;
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:129>
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_13 = __this->___cameraDevice;
+		NullCheck(L_13);
+		CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F(L_13, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:130>
+		CameraDeviceFrameSource_t96C3510E9C369F5946CEBF25739FF84997FA1A92* L_14 = __this->___cameraDevice;
+		NullCheck(L_14);
+		CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64(L_14, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:131>
+		return;
+	}
+}
+// Method Definition Index: 45761
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_CreateTargets_m5C5427E0C19B8AA29388E1EC6829F5D409DF7314 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m7D8098C50EE0CF157C6B09912310A1FD9474F245_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m00711B095CC5BE52F04F5EB7283C8795DB012C35_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mCF3C7D2E2BA4F0177C908FDCFE7955303CBD5BED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m68D0E2F78D7A7BFC737BE72E4088B86A85F55F6D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral206F3739AB9C2465DE900934CBBFEF89F05FE721);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral42B857DCA1FE24EA99D77A53859F0916B3433DFA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F03A8329C3FF255B10C7E7364B8DA986B753AB7);
+		s_Il2CppMethodInitialized = true;
+	}
+	ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* V_0 = NULL;
+	Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* V_2 = NULL;
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:136>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_0;
+		L_0 = ImageTrackingSample_CreateTargetNode_mDBA8B80B029DBC6DC81A316055B6DD77541CC8F3(__this, _stringLiteral42B857DCA1FE24EA99D77A53859F0916B3433DFA, NULL);
+		V_0 = L_0;
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:137>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_1 = V_0;
+		ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_2 = __this->___imageTracker;
+		NullCheck(L_1);
+		ImageTargetController_set_Tracker_mA9CCBB114C5479A0679FEF22A74B67DB9D1AD26B(L_1, L_2, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:138>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:139>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:140>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:141>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:142>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_3 = V_0;
+		TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B* L_4 = (TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B*)il2cpp_codegen_object_new(TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B_il2cpp_TypeInfo_var);
+		TargetDataFileSourceData__ctor_m55BE27C785B522450B12B613325E49C7731E0055(L_4, NULL);
+		TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B* L_5 = L_4;
+		NullCheck(L_5);
+		L_5->___PathType = 1;
+		TargetDataFileSourceData_t8A1E6462041EA1563F8FAD0E8DD979416E605C4B* L_6 = L_5;
+		NullCheck(L_6);
+		L_6->___Path = _stringLiteral9F03A8329C3FF255B10C7E7364B8DA986B753AB7;
+		Il2CppCodeGenWriteBarrier((void**)(&L_6->___Path), (void*)_stringLiteral9F03A8329C3FF255B10C7E7364B8DA986B753AB7);
+		NullCheck(L_3);
+		ImageTargetController_set_Source_m11C9CEAC76BFECE1A537E95036718B8C24578256(L_3, L_6, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:144>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___Panda;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_7, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:145>
+		NullCheck(L_8);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_8, NULL);
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_10 = V_0;
+		NullCheck(L_10);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
+		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
+		NullCheck(L_11);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
+		NullCheck(L_9);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_9, L_12, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:148>
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_13 = __this->___TargetTextures;
+		NullCheck(L_13);
+		Enumerator_tB27E67E9E66FACC8EC96B957B493E37F2885E6F1 L_14;
+		L_14 = List_1_GetEnumerator_m68D0E2F78D7A7BFC737BE72E4088B86A85F55F6D(L_13, List_1_GetEnumerator_m68D0E2F78D7A7BFC737BE72E4088B86A85F55F6D_RuntimeMethod_var);
+		V_1 = L_14;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00e2:
+			{
+				Enumerator_Dispose_m7D8098C50EE0CF157C6B09912310A1FD9474F245((&V_1), Enumerator_Dispose_m7D8098C50EE0CF157C6B09912310A1FD9474F245_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_00d7_1;
+			}
+
+IL_0063_1:
+			{
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:148>
+				Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_15;
+				L_15 = Enumerator_get_Current_mCF3C7D2E2BA4F0177C908FDCFE7955303CBD5BED_inline((&V_1), Enumerator_get_Current_mCF3C7D2E2BA4F0177C908FDCFE7955303CBD5BED_RuntimeMethod_var);
+				V_2 = L_15;
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:150>
+				Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = V_2;
+				NullCheck(L_16);
+				String_t* L_17;
+				L_17 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_16, NULL);
+				String_t* L_18;
+				L_18 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral206F3739AB9C2465DE900934CBBFEF89F05FE721, L_17, NULL);
+				ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_19;
+				L_19 = ImageTrackingSample_CreateTargetNode_mDBA8B80B029DBC6DC81A316055B6DD77541CC8F3(__this, L_18, NULL);
+				V_0 = L_19;
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:151>
+				ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_20 = V_0;
+				ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_21 = __this->___imageTracker;
+				NullCheck(L_20);
+				ImageTargetController_set_Tracker_mA9CCBB114C5479A0679FEF22A74B67DB9D1AD26B(L_20, L_21, NULL);
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:152>
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:153>
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:154>
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:155>
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:156>
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:157>
+				ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_22 = V_0;
+				Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19* L_23 = (Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19*)il2cpp_codegen_object_new(Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19_il2cpp_TypeInfo_var);
+				Texture2DSourceData__ctor_mB0D1AB44F449D6F11E6AF033875752AC7646C830(L_23, NULL);
+				Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19* L_24 = L_23;
+				Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_25 = V_2;
+				NullCheck(L_24);
+				L_24->___Texture = L_25;
+				Il2CppCodeGenWriteBarrier((void**)(&L_24->___Texture), (void*)L_25);
+				Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19* L_26 = L_24;
+				Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_27 = V_2;
+				NullCheck(L_27);
+				String_t* L_28;
+				L_28 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_27, NULL);
+				NullCheck(L_26);
+				L_26->___Name = L_28;
+				Il2CppCodeGenWriteBarrier((void**)(&L_26->___Name), (void*)L_28);
+				Texture2DSourceData_t4CF11887CB20AF9C5521CB106232396983BDCC19* L_29 = L_26;
+				NullCheck(L_29);
+				L_29->___Scale = (0.100000001f);
+				NullCheck(L_22);
+				ImageTargetController_set_Source_m11C9CEAC76BFECE1A537E95036718B8C24578256(L_22, L_29, NULL);
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:159>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = __this->___Panda;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+				L_31 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_30, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:160>
+				NullCheck(L_31);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
+				L_32 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_31, NULL);
+				ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_33 = V_0;
+				NullCheck(L_33);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
+				L_34 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_33, NULL);
+				NullCheck(L_34);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
+				L_35 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_34, NULL);
+				NullCheck(L_32);
+				Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_32, L_35, NULL);
+			}
+
+IL_00d7_1:
+			{
+				//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:148>
+				bool L_36;
+				L_36 = Enumerator_MoveNext_m00711B095CC5BE52F04F5EB7283C8795DB012C35((&V_1), Enumerator_MoveNext_m00711B095CC5BE52F04F5EB7283C8795DB012C35_RuntimeMethod_var);
+				if (L_36)
+				{
+					goto IL_0063_1;
+				}
+			}
+			{
+				goto IL_00f0;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00f0:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:162>
+		return;
+	}
+}
+// Method Definition Index: 45762
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* ImageTrackingSample_CreateTargetNode_mDBA8B80B029DBC6DC81A316055B6DD77541CC8F3 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, String_t* ___0_targetName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_mA7E7AB396A6A9F6F74D39DA1733325F12C1D8784_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m60593F7A07A91E7D1CAE50AC9C5DFB3168AB3C47_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* V_0 = NULL;
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:166>
+		String_t* L_0 = ___0_targetName;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_1, L_0, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:167>
+		NullCheck(L_1);
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_2;
+		L_2 = GameObject_AddComponent_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_mA7E7AB396A6A9F6F74D39DA1733325F12C1D8784(L_1, GameObject_AddComponent_TisImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633_mA7E7AB396A6A9F6F74D39DA1733325F12C1D8784_RuntimeMethod_var);
+		V_0 = L_2;
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:168>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_3 = V_0;
+		ImageTrackingSample_HandleTargetEvents_mE15E1C1CA34522D18E2283811A5AA5F35A9D7D02(__this, L_3, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:169>
+		List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* L_4 = __this->___targets;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_5 = V_0;
+		NullCheck(L_4);
+		List_1_Add_m60593F7A07A91E7D1CAE50AC9C5DFB3168AB3C47_inline(L_4, L_5, List_1_Add_m60593F7A07A91E7D1CAE50AC9C5DFB3168AB3C47_RuntimeMethod_var);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:170>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 45763
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_HandleTargetEvents_mE15E1C1CA34522D18E2283811A5AA5F35A9D7D02 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* ___0_controller, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__0_m207CB44948BA0E5118421E4E8944EFB261D097DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__1_m6B3ED177296CC71A844CA9C0CAE48AFF3C9791EE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__2_m788EC4270C0B1F65FA59D6C09A13C188A0E7D9D4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* L_0 = (U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass16_0__ctor_mB7B41C89B7C39767260CCA5A8DE381892A73750D(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* L_1 = V_0;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_2 = ___0_controller;
+		NullCheck(L_1);
+		L_1->___controller = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___controller), (void*)L_2);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:175>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:176>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:177>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:178>
+		U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* L_3 = V_0;
+		NullCheck(L_3);
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_4 = L_3->___controller;
+		U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* L_5 = V_0;
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_6 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__0_m207CB44948BA0E5118421E4E8944EFB261D097DE_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		ImageTargetController_add_TargetDataLoad_m0335C402838427C64B30BAA7EB7F64B13E001432(L_4, L_6, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:179>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:180>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:181>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:182>
+		U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* L_7 = V_0;
+		NullCheck(L_7);
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_8 = L_7->___controller;
+		U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__1_m6B3ED177296CC71A844CA9C0CAE48AFF3C9791EE_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		TargetController_add_TargetFound_mD4B9C4D3662E282B491F617E22AA14D3775AB57B(L_8, L_10, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:183>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:184>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:185>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:186>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:187>
+		U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* L_11 = V_0;
+		NullCheck(L_11);
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_12 = L_11->___controller;
+		U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* L_13 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_14 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__2_m788EC4270C0B1F65FA59D6C09A13C188A0E7D9D4_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		TargetController_add_TargetLost_mB6790A7172B5C303E3143155672D27F4BF6E4ECC(L_12, L_14, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:188>
+		return;
+	}
+}
+// Method Definition Index: 45764
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_HandleTrackerEvents_m99A0D1624F9D5C8E0025B03701BC7E51AC9C4365 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* ___0_tracker, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__0_mF6A63AF8C32CFBE3E70C898A8709797D57E967DA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__1_m1D101CECB471DBABA6C00A31E6A08752313BF4C5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* L_0 = (U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass17_0__ctor_m82573F2198715C4946519BC48B1AC1F0A4786D6C(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* L_1 = V_0;
+		ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_2 = ___0_tracker;
+		NullCheck(L_1);
+		L_1->___tracker = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___tracker), (void*)L_2);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:192>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:193>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:194>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:195>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:196>
+		U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* L_3 = V_0;
+		NullCheck(L_3);
+		ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_4 = L_3->___tracker;
+		U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* L_5 = V_0;
+		Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB* L_6 = (Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB*)il2cpp_codegen_object_new(Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB_il2cpp_TypeInfo_var);
+		Action_2__ctor_m51F571D217CA086C3B43B7724793BC769379AB2B(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__0_mF6A63AF8C32CFBE3E70C898A8709797D57E967DA_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		ImageTrackerFrameFilter_add_TargetLoad_mAB03EA3C315CD3EBC0380215A0FF9B2B4B9DE908(L_4, L_6, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:197>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:198>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:199>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:200>
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:201>
+		U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* L_7 = V_0;
+		NullCheck(L_7);
+		ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_8 = L_7->___tracker;
+		U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* L_9 = V_0;
+		Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB* L_10 = (Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB*)il2cpp_codegen_object_new(Action_2_t52C0017A044C63059A97BD736B24DDFFA606E2DB_il2cpp_TypeInfo_var);
+		Action_2__ctor_m51F571D217CA086C3B43B7724793BC769379AB2B(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__1_m1D101CECB471DBABA6C00A31E6A08752313BF4C5_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		ImageTrackerFrameFilter_add_TargetUnload_mA603939F5409FA5CC437E4D3818F33A4FDE0EE48(L_8, L_10, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:202>
+		return;
+	}
+}
+// Method Definition Index: 45765
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample_AdaptInputSystem_m4FBCE8B36B0EB34E088B2AB020F310FD86BE1FB7 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StandaloneInputModule_tD8B581E4A0A2A25B99EB002FF669C4EEED350530_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Type_t* V_0 = NULL;
+	Type_t* V_1 = NULL;
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:206>
+		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
+		L_0 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:206>
+		return;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:209>
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_3;
+		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
+		V_0 = L_3;
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:210>
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (StandaloneInputModule_tD8B581E4A0A2A25B99EB002FF669C4EEED350530_0_0_0_var) };
+		Type_t* L_5;
+		L_5 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_4, NULL);
+		V_1 = L_5;
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:215>
+		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_6;
+		L_6 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
+		Type_t* L_7 = V_0;
+		NullCheck(L_6);
+		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_8;
+		L_8 = Component_GetComponent_m4352437B839B9601EB007CAC1007C8E1FB8A427D(L_6, L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:215>
+		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_10;
+		L_10 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
+		Type_t* L_11 = V_0;
+		NullCheck(L_10);
+		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_12;
+		L_12 = Component_GetComponent_m4352437B839B9601EB007CAC1007C8E1FB8A427D(L_10, L_11, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_12, NULL);
+	}
+
+IL_0045:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:216>
+		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_13;
+		L_13 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
+		Type_t* L_14 = V_1;
+		NullCheck(L_13);
+		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_15;
+		L_15 = Component_GetComponent_m4352437B839B9601EB007CAC1007C8E1FB8A427D(L_13, L_14, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_16;
+		L_16 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_15, NULL);
+		if (L_16)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:216>
+		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_17;
+		L_17 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
+		NullCheck(L_17);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
+		Type_t* L_19 = V_1;
+		NullCheck(L_18);
+		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_20;
+		L_20 = GameObject_AddComponent_mDF246771EC34613FA6AF0C98D443368FB43E9F36(L_18, L_19, NULL);
+	}
+
+IL_0068:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:218>
+		return;
+	}
+}
+// Method Definition Index: 45766
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSample__ctor_m105E619932A4E60E93E2B4CE1474545CB6618BD5 (ImageTrackingSample_t037ECBF47780230C33729BADBCB822E4C9089586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mA49DC09A8485352F718D29EE01B4C549B7F60884_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:24>
+		List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9* L_0 = (List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9*)il2cpp_codegen_object_new(List_1_t72857DFDBD06F9F5EE70D1637F11D53145A55CF9_il2cpp_TypeInfo_var);
+		List_1__ctor_mA49DC09A8485352F718D29EE01B4C549B7F60884(L_0, List_1__ctor_mA49DC09A8485352F718D29EE01B4C549B7F60884_RuntimeMethod_var);
+		__this->___targets = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targets), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 45767
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0__ctor_mB7B41C89B7C39767260CCA5A8DE381892A73750D (U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 45768
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__0_m207CB44948BA0E5118421E4E8944EFB261D097DE (U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* __this, bool ___0_status, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8CC692350444900910BCC8FBF78EA035E25D82BD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC6DA8799DE054805770C56B09BD50CBFFEF1B919);
+		s_Il2CppMethodInitialized = true;
+	}
+	Type_t* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	Type_t* G_B1_0 = NULL;
+	String_t* G_B1_1 = NULL;
+	String_t* G_B3_0 = NULL;
+	Type_t* G_B3_1 = NULL;
+	String_t* G_B3_2 = NULL;
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:177>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_0 = __this->___controller;
+		NullCheck(L_0);
+		SourceData_t820BD36A4BB949FB046CD83C888A54CCBFF8C712* L_1;
+		L_1 = ImageTargetController_get_Source_m94FD7597ED4860CBCBDE30FF9B34F19252D1DF5C(L_0, NULL);
+		NullCheck(L_1);
+		Type_t* L_2;
+		L_2 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_1, NULL);
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_3 = __this->___controller;
+		NullCheck(L_3);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_4;
+		L_4 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_3, NULL);
+		if (!L_4)
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = _stringLiteralC6DA8799DE054805770C56B09BD50CBFFEF1B919;
+			goto IL_0053;
+		}
+		G_B1_0 = L_2;
+		G_B1_1 = _stringLiteralC6DA8799DE054805770C56B09BD50CBFFEF1B919;
+	}
+	{
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_5 = __this->___controller;
+		NullCheck(L_5);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_6;
+		L_6 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_5, NULL);
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_6);
+		int32_t L_8 = L_7;
+		RuntimeObject* L_9 = Box(il2cpp_defaults.int32_class, &L_8);
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_10 = __this->___controller;
+		NullCheck(L_10);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_11;
+		L_11 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_10, NULL);
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_11);
+		String_t* L_13;
+		L_13 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral8CC692350444900910BCC8FBF78EA035E25D82BD, L_9, L_12, NULL);
+		G_B3_0 = L_13;
+		G_B3_1 = G_B1_0;
+		G_B3_2 = G_B1_1;
+		goto IL_0058;
+	}
+
+IL_0053:
+	{
+		String_t* L_14 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
+		G_B3_0 = L_14;
+		G_B3_1 = G_B2_0;
+		G_B3_2 = G_B2_1;
+	}
+
+IL_0058:
+	{
+		bool L_15 = ___0_status;
+		bool L_16 = L_15;
+		RuntimeObject* L_17 = Box(il2cpp_defaults.boolean_class, &L_16);
+		String_t* L_18;
+		L_18 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(G_B3_2, G_B3_1, G_B3_0, L_17, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_18, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:178>
+		return;
+	}
+}
+// Method Definition Index: 45769
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__1_m6B3ED177296CC71A844CA9C0CAE48AFF3C9791EE (U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB0410D7021B5FCF2EF5873BC8F8101B9AE4FEB04);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:181>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_0 = __this->___controller;
+		NullCheck(L_0);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_1;
+		L_1 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_0, NULL);
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_1);
+		int32_t L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_defaults.int32_class, &L_3);
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_5 = __this->___controller;
+		NullCheck(L_5);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_6;
+		L_6 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_5, NULL);
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_6);
+		String_t* L_8;
+		L_8 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralB0410D7021B5FCF2EF5873BC8F8101B9AE4FEB04, L_4, L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:182>
+		return;
+	}
+}
+// Method Definition Index: 45770
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0_U3CHandleTargetEventsU3Eb__2_m788EC4270C0B1F65FA59D6C09A13C188A0E7D9D4 (U3CU3Ec__DisplayClass16_0_tF54B48CF0F9C820182C25936A73FFAFC3EEE130A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5E3F345A25DD79391E7D2F5A1FB17A6998C39DDC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:185>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_0 = __this->___controller;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:185>
+		return;
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:186>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_2 = __this->___controller;
+		NullCheck(L_2);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_3;
+		L_3 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_2, NULL);
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_3);
+		int32_t L_5 = L_4;
+		RuntimeObject* L_6 = Box(il2cpp_defaults.int32_class, &L_5);
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_7 = __this->___controller;
+		NullCheck(L_7);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_8;
+		L_8 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_7, NULL);
+		NullCheck(L_8);
+		String_t* L_9;
+		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_8);
+		String_t* L_10;
+		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral5E3F345A25DD79391E7D2F5A1FB17A6998C39DDC, L_6, L_9, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_10, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:187>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 45771
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0__ctor_m82573F2198715C4946519BC48B1AC1F0A4786D6C (U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 45772
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__0_mF6A63AF8C32CFBE3E70C898A8709797D57E967DA (U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* __this, ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* ___0_controller, bool ___1_status, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7E892D89E76900AA0C9D21D4E503234EAADD3377);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:194>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_0 = ___0_controller;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:194>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:195>
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_4 = ___0_controller;
+		NullCheck(L_4);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_5;
+		L_5 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_4, NULL);
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_5);
+		int32_t L_7 = L_6;
+		RuntimeObject* L_8 = Box(il2cpp_defaults.int32_class, &L_7);
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_8);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_3;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_10 = ___0_controller;
+		NullCheck(L_10);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_11;
+		L_11 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_10, NULL);
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_11);
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, L_12);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_9;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_14 = ___0_controller;
+		NullCheck(L_14);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
+		L_15 = ImageTargetController_get_Size_m81B778F198A8854934002A378CB53FF3A6D50225(L_14, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = L_15;
+		RuntimeObject* L_17 = Box(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var, &L_16);
+		NullCheck(L_13);
+		ArrayElementTypeCheck (L_13, L_17);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_17);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = L_13;
+		ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_19 = __this->___tracker;
+		NullCheck(L_19);
+		String_t* L_20;
+		L_20 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_19, NULL);
+		NullCheck(L_18);
+		ArrayElementTypeCheck (L_18, L_20);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_20);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21 = L_18;
+		bool L_22 = ___1_status;
+		bool L_23 = L_22;
+		RuntimeObject* L_24 = Box(il2cpp_defaults.boolean_class, &L_23);
+		NullCheck(L_21);
+		ArrayElementTypeCheck (L_21, L_24);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_24);
+		String_t* L_25;
+		L_25 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral7E892D89E76900AA0C9D21D4E503234EAADD3377, L_21, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_25, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:196>
+		return;
+	}
+}
+// Method Definition Index: 45773
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0_U3CHandleTrackerEventsU3Eb__1_m1D101CECB471DBABA6C00A31E6A08752313BF4C5 (U3CU3Ec__DisplayClass17_0_t284750B8E1450715C678D70BB075C91954584868* __this, ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* ___0_controller, bool ___1_status, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral420A34AE91FF1BBB6C3A379D47842B65E481607B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:199>
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_0 = ___0_controller;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:199>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:200>
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_4 = ___0_controller;
+		NullCheck(L_4);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_5;
+		L_5 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_4, NULL);
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_5);
+		int32_t L_7 = L_6;
+		RuntimeObject* L_8 = Box(il2cpp_defaults.int32_class, &L_7);
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_8);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_3;
+		ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* L_10 = ___0_controller;
+		NullCheck(L_10);
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_11;
+		L_11 = ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline(L_10, NULL);
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_11);
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, L_12);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_9;
+		ImageTrackerFrameFilter_t1C3BF48AFCFEA2D5BE49CAE9196847DBB5177A9E* L_14 = __this->___tracker;
+		NullCheck(L_14);
+		String_t* L_15;
+		L_15 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_14, NULL);
+		NullCheck(L_13);
+		ArrayElementTypeCheck (L_13, L_15);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_15);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_13;
+		bool L_17 = ___1_status;
+		bool L_18 = L_17;
+		RuntimeObject* L_19 = Box(il2cpp_defaults.boolean_class, &L_18);
+		NullCheck(L_16);
+		ArrayElementTypeCheck (L_16, L_19);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_19);
+		String_t* L_20;
+		L_20 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral420A34AE91FF1BBB6C3A379D47842B65E481607B, L_16, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
+		//<source_info:C:/GitHubRepo/XOsoftARTest/Assets/Samples/EasyAR Sense Unity Plugin/4000.0.1+4885.aaa733e51/ImageTracking_Targets/Scripts/ImageTrackingSample.cs:201>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 31960
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ARSession_get_SpecificTargetCenter_m073B46773B64BF6D53D8209991AAFBCCD659FD1F_inline (ARSession_tE7BD3656886DDF0823637E4219C76DA80A215D35* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.easyar.sense@0d90409d096d/Runtime/Workflow/ARSession.cs:233>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___specificTargetCenter;
+		return L_0;
+	}
+}
+// Method Definition Index: 30935
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95_inline (ImageTargetController_t84FED4EB42B01319DE27986E10F1941E88ACA633* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.easyar.sense@0d90409d096d/Runtime/ImageTracking/ImageTargetController.cs:65>
+		ImageTarget_t2EA76B35550391ED19105CB22E7EC95723D478FB* L_0 = __this->___U3CTargetU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 20724
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 20771
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
