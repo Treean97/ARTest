@@ -2042,6 +2042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3cb28b8455bfd745807d5a820ca9acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnObject
+  _Data: {fileID: 11400000, guid: 869b59e285c66264084efbdfd22f6db6, type: 2}
   _RotationSpeed: 8
   _RotationRestoreSpeed: 10
   _ModeChangeSpeed: 15
@@ -9039,6 +9040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3cb28b8455bfd745807d5a820ca9acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnObject
+  _Data: {fileID: 11400000, guid: f7329f112e0280146b4c8b3e515b794c, type: 2}
   _RotationSpeed: 8
   _RotationRestoreSpeed: 10
   _ModeChangeSpeed: 15
@@ -9711,6 +9713,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CombineManager
   _ImageTracker: {fileID: 2135427228}
+  _CombineRecipes:
+  - {fileID: 11400000, guid: 9d6b1c78fae5fbd4f8580f8e5617a7f2, type: 2}
   _CombineAnchor: {fileID: 1462606503}
   _JudgeDeltaX: 1.2
   _JudgeDeltaY: 1

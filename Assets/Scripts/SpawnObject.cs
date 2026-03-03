@@ -3,6 +3,10 @@ using UnityEngine;
 
 public class SpawnObject : MonoBehaviour
 {
+    [Header("데이터")]
+    [SerializeField] SpawnObjectData _Data;
+    public SpawnObjectData Data => _Data;
+    
     [Header("설정")]
     [SerializeField] float _RotationSpeed = 5f;
     public float RotationSpeed { get => _RotationSpeed; }

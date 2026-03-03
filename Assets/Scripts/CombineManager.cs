@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,10 @@ public class CombineManager : MonoBehaviour
     public static CombineManager Instance { get; private set; }
 
     [SerializeField] private ImageTracker _ImageTracker;
+
+    [Header("합체 조합식")]
+    [SerializeField] List<CombineRecipe> _CombineRecipes = new();
+    private readonly HashSet<PairKey> _AllowedPairs = new();
 
     [Header("합체 앵커")]
     [SerializeField] private CombineAnchor _CombineAnchor;
@@ -48,6 +53,9 @@ public class CombineManager : MonoBehaviour
         Instance = this;
 
         _Cam = Camera.main;
+
+        // 레시피 캐싱
+        CacheRecipes();
     }
 
     void OnEnable()
@@ -207,6 +215,16 @@ public class CombineManager : MonoBehaviour
 
         if (!TryGetSpawnObjects(out SpawnObject primaryObj, out SpawnObject secondaryObj)) return;
 
+        if(!CheckRecipe(primaryObj.Data, secondaryObj.Data)) 
+        {
+            Debug.Log("조합 실패");
+            return;
+        }
+        else
+        {
+            Debug.Log("조합 성공");    
+        }
+        
         primaryObj.EnterDetectCombineTargetState();
         secondaryObj.EnterDetectCombineTargetState();
 
@@ -324,6 +342,7 @@ public class CombineManager : MonoBehaviour
         // 고스트 소환
     }
 
+    // 소환 객체 추출
     private bool TryGetSpawnObjects(out SpawnObject primaryObj, out SpawnObject secondaryObj)
     {
         primaryObj = null;
@@ -383,4 +402,41 @@ public class CombineManager : MonoBehaviour
 
         _CombineEffect.SetPair(_PrimaryTarget.transform, _SecondaryTarget.transform);
     }
+
+    private void CacheRecipes()
+    {
+        _AllowedPairs.Clear();
+
+        if (_CombineRecipes == null) return;
+
+        foreach (var recipe in _CombineRecipes)
+        {
+            if (recipe == null) continue;
+            if (recipe.A == null || recipe.B == null) continue;
+
+            int idA = recipe.A.ID;
+            int idB = recipe.B.ID;
+
+            var key = new PairKey(idA, idB);
+
+            if (_AllowedPairs.Add(key))
+                Debug.Log($"[Combine] Recipe registered: {key}");
+            else
+                Debug.LogWarning($"[Combine] Duplicate recipe skipped: {key} (Recipe={recipe.name})");
+        }
+    }
+
+    public bool CheckRecipe(SpawnObjectData a, SpawnObjectData b)
+    {
+        if (a == null || b == null) return false;
+        return _AllowedPairs.Contains(new PairKey(a.ID, b.ID));
+    }
+
+    // SpawnObject에서 바로 체크하고 싶으면 이 오버로드도 쓰면 편함
+    public bool CheckRecipe(SpawnObject a, SpawnObject b)
+    {
+        if (a == null || b == null) return false;
+        return CheckRecipe(a.Data, b.Data);
+    }
+
 }
