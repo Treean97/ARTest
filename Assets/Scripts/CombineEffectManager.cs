@@ -3,52 +3,108 @@ using DigitalRuby.LightningBolt;
 
 public class CombineEffectManager : MonoBehaviour
 {
-    [SerializeField] private LightningBoltScript _Lightning;
+    [SerializeField] private LightningBoltScript _DetectCombineTargetState_Effect_Lightning;
+    [SerializeField] private GameObject _CombiningState_Effect_Sparkle;
+    [SerializeField] private GameObject _CombinedState_Effect_Sparkle;
 
-    private Transform _Start;
-    private Transform _End;
-    private bool _IsActive;
-    public bool IsActive => _IsActive;
-
-    void Awake()
-    {
-        SetActive(false);
-    }
+    private bool _IsDetectActive;
+    private bool _IsCombiningActive;
+    private bool _IsCombinedActive;
 
     void Update()
     {
-        if (!_IsActive) return;
-        if (_Lightning == null) return;
+        if (!_IsDetectActive) return;
 
-        if (_Start == null || _End == null)
+        CombineManager mgr = CombineManager.Instance;
+        if (mgr == null || mgr.PrimaryTarget == null || mgr.SecondaryTarget == null)
         {
-            Clear();
+            SetDetectActive(false);
+        }
+    }
+
+    // CombinePhase를 그대로 받아 이펙트를 적용
+    public void ApplyPhase(CombineManager.CombinePhase phase)
+    {
+        ClearAll();
+
+        switch (phase)
+        {
+            case CombineManager.CombinePhase.Detecting:
+                SetDetectActive(true);
+                break;
+
+            case CombineManager.CombinePhase.Combining:
+                SetCombiningActive(true);
+                break;
+
+            case CombineManager.CombinePhase.Combined:
+                SetCombinedActive(true);
+                break;
+
+            case CombineManager.CombinePhase.Idle:
+            default:
+                break;
+        }
+    }
+
+    public void SetDetectActive(bool isActive)
+    {
+        _IsDetectActive = isActive;
+
+        if (_DetectCombineTargetState_Effect_Lightning != null &&
+            _DetectCombineTargetState_Effect_Lightning.gameObject.activeSelf != isActive)
+        {
+            _DetectCombineTargetState_Effect_Lightning.gameObject.SetActive(isActive);
+        }
+
+        if (!isActive) return;
+        
+        if (_DetectCombineTargetState_Effect_Lightning == null) return;
+
+        CombineManager mgr = CombineManager.Instance;
+        if (mgr == null) { SetDetectActive(false); return; }
+
+        TrackedTarget primary = mgr.PrimaryTarget;
+        TrackedTarget secondary = mgr.SecondaryTarget;
+
+        if (primary == null || secondary == null)
+        {
+            // 타겟이 없으면 Detect를 켤 이유가 없음
+            SetDetectActive(false);
             return;
         }
 
-        // LightningBoltScript는 GameObject를 받음
-        _Lightning.StartObject = _Start.gameObject;
-        _Lightning.EndObject = _End.gameObject;
+        // TrackedTarget의 Transform을 따라가려면 LightningBoltScript는 GameObject를 받아야 함
+        _DetectCombineTargetState_Effect_Lightning.StartObject = primary.gameObject;
+        _DetectCombineTargetState_Effect_Lightning.EndObject = secondary.gameObject;
     }
 
-    public void SetPair(Transform start, Transform end)
+    public void SetCombiningActive(bool isActive)
     {
-        _Start = start;
-        _End = end;
+        _IsCombiningActive = isActive;
+
+        if (_CombiningState_Effect_Sparkle != null &&
+            _CombiningState_Effect_Sparkle.activeSelf != isActive)
+        {
+            _CombiningState_Effect_Sparkle.SetActive(isActive);
+        }
     }
 
-    public void SetActive(bool isActive)
+    public void SetCombinedActive(bool isActive)
     {
-        _IsActive = isActive;
+        _IsCombinedActive = isActive;
 
-        if (_Lightning != null && _Lightning.gameObject.activeSelf != isActive)
-            _Lightning.gameObject.SetActive(isActive);
+        if (_CombinedState_Effect_Sparkle != null &&
+            _CombinedState_Effect_Sparkle.activeSelf != isActive)
+        {
+            _CombinedState_Effect_Sparkle.SetActive(isActive);
+        }
     }
 
-    public void Clear()
+    public void ClearAll()
     {
-        _Start = null;
-        _End = null;
-        SetActive(false);
+        SetDetectActive(false);
+        SetCombiningActive(false);
+        SetCombinedActive(false);
     }
 }

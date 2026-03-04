@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +10,7 @@ public class CombineManager : MonoBehaviour
     [Header("합체 조합식")]
     [SerializeField] List<CombineRecipe> _CombineRecipes = new();
     private readonly HashSet<PairKey> _AllowedPairs = new();
+    private readonly Dictionary<int, List<SpawnObjectData>> _CombinePartners = new();
 
     [Header("합체 앵커")]
     [SerializeField] private CombineAnchor _CombineAnchor;
@@ -33,7 +33,7 @@ public class CombineManager : MonoBehaviour
 
     private readonly Dictionary<SpawnObject, Transform> _OriginalParents = new();
 
-    private enum CombinePhase
+    public enum CombinePhase
     {
         Idle,
         Detecting,
@@ -66,6 +66,9 @@ public class CombineManager : MonoBehaviour
         _ImageTracker.OnCombineSecondaryFound += HandleCombineSecondaryFound;
         _ImageTracker.OnCombinePrimaryLost += HandleCombinePrimaryLost;
         _ImageTracker.OnCombineSecondaryLost += HandleCombineSecondaryLost;
+
+        // 객체 상태 이벤트 등록
+        // (삭제) 이펙트는 CombinePhase 전환 지점에서만 제어
     }
 
     void OnDisable()
@@ -76,6 +79,9 @@ public class CombineManager : MonoBehaviour
         _ImageTracker.OnCombineSecondaryFound -= HandleCombineSecondaryFound;
         _ImageTracker.OnCombinePrimaryLost -= HandleCombinePrimaryLost;
         _ImageTracker.OnCombineSecondaryLost -= HandleCombineSecondaryLost;
+
+        // 비활성화 시 이펙트 정리
+        ApplyEffectPhase(CombinePhase.Idle);
     }
 
     private void HandleCombineSecondaryFound(TrackedTarget primary, TrackedTarget secondary)
@@ -96,9 +102,6 @@ public class CombineManager : MonoBehaviour
 
     void Update()
     {
-        // 이펙트 갱신
-        UpdateCombineEffect();
-
         // Detecting/Combining/Combined 에서만 처리
         if (_Phase == CombinePhase.Idle) return;
         if (_PrimaryTarget == null || _SecondaryTarget == null) return;
@@ -170,6 +173,9 @@ public class CombineManager : MonoBehaviour
 
         _Phase = CombinePhase.Idle;
 
+        // 합체 플로우를 새로 시작하니 이펙트는 싹 정리
+        ApplyEffectPhase(CombinePhase.Idle);
+
         _ImageTracker.EnterCombineSearching(_PrimaryTarget);
         SetSecondaryTarget(null);
     }
@@ -181,6 +187,9 @@ public class CombineManager : MonoBehaviour
 
         // 합체 시작 Combining
         _Phase = CombinePhase.Combining;
+
+        // Combining 이펙트 ON
+        ApplyEffectPhase(CombinePhase.Combining);
 
         _CombineAnchor.transform.SetParent(_PrimaryTarget.transform, true);
         _CombineAnchor.transform.localRotation = Quaternion.identity;
@@ -198,7 +207,7 @@ public class CombineManager : MonoBehaviour
         PlaceUnderAnchor(leftObj, _CombineAnchor.LeftAnchor);
         PlaceUnderAnchor(rightObj, _CombineAnchor.RightAnchor);
 
-        // 합체 중 상태로 전환
+        // 두 객체 모두 합체 중 상태로 전환
         primaryObj.EnterCombiningState();
         secondaryObj.EnterCombiningState();
     }
@@ -215,20 +224,26 @@ public class CombineManager : MonoBehaviour
 
         if (!TryGetSpawnObjects(out SpawnObject primaryObj, out SpawnObject secondaryObj)) return;
 
-        if(!CheckRecipe(primaryObj.Data, secondaryObj.Data)) 
+        if (!CheckRecipe(primaryObj.Data, secondaryObj.Data))
         {
-            Debug.Log("조합 실패");
+            Debug.Log("조합 불가능");
+            _SecondaryTarget = null;
+
             return;
         }
         else
         {
-            Debug.Log("조합 성공");    
+            Debug.Log("조합 가능");
         }
-        
+
+        // 두 객체 모두 합체 대상을 찾은 상태로 전환
         primaryObj.EnterDetectCombineTargetState();
         secondaryObj.EnterDetectCombineTargetState();
 
         _Phase = CombinePhase.Detecting;
+
+        // Detecting 이펙트 ON (pair 포함)
+        ApplyEffectPhase(CombinePhase.Detecting);
 
         _ImageTracker.EnterCombineDetecting(_PrimaryTarget, _SecondaryTarget);
     }
@@ -239,6 +254,9 @@ public class CombineManager : MonoBehaviour
         if (_Phase != CombinePhase.Combining) return;
 
         _Phase = CombinePhase.Combined;
+
+        // Combined 이펙트 ON
+        ApplyEffectPhase(CombinePhase.Combined);
     }
 
     // 거리 멀어지면 다시 해제
@@ -248,6 +266,9 @@ public class CombineManager : MonoBehaviour
 
         _Phase = CombinePhase.Detecting;
 
+        // Detecting로 복귀 (pair 포함)
+        ApplyEffectPhase(CombinePhase.Detecting);
+
         RestoreCombineAnchor();
 
         RestoreToOriginalParent(primaryObj);
@@ -255,8 +276,6 @@ public class CombineManager : MonoBehaviour
 
         primaryObj.EnterDetectCombineTargetState();
         secondaryObj.EnterDetectCombineTargetState();
-
-        
     }
 
     // 주대상 사라짐
@@ -268,6 +287,9 @@ public class CombineManager : MonoBehaviour
 
         // 합체/감지 종료
         _Phase = CombinePhase.Idle;
+
+        // 타겟 잃으면 이펙트 싹 정리
+        ApplyEffectPhase(CombinePhase.Idle);
 
         // 앵커 복귀
         RestoreCombineAnchor();
@@ -308,6 +330,9 @@ public class CombineManager : MonoBehaviour
         // secondary가 사라졌으니 감지는 종료, 다시 탐색으로
         _Phase = CombinePhase.Idle;
 
+        // 타겟 잃으면 이펙트 싹 정리
+        ApplyEffectPhase(CombinePhase.Idle);
+
         // 앵커 복귀
         RestoreCombineAnchor();
 
@@ -340,6 +365,13 @@ public class CombineManager : MonoBehaviour
     private void TrySummon()
     {
         // 고스트 소환
+    }
+
+    // 상태 별 이펙트 적용
+    private void ApplyEffectPhase(CombinePhase phase)
+    {
+        if (_CombineEffect == null) return;
+        _CombineEffect.ApplyPhase(phase);
     }
 
     // 소환 객체 추출
@@ -385,27 +417,10 @@ public class CombineManager : MonoBehaviour
         _CombineAnchor.transform.SetParent(transform, true);
     }
 
-    private void UpdateCombineEffect()
-    {
-        if (_CombineEffect == null) return;
-
-        bool condition = (_Phase == CombinePhase.Detecting) && _PrimaryTarget != null && _SecondaryTarget != null;
-
-        if (!condition)
-        {
-            if (_CombineEffect.IsActive) _CombineEffect.SetActive(false);
-            return;
-        }
-
-        if (!_CombineEffect.IsActive)
-            _CombineEffect.SetActive(true);
-
-        _CombineEffect.SetPair(_PrimaryTarget.transform, _SecondaryTarget.transform);
-    }
-
     private void CacheRecipes()
     {
         _AllowedPairs.Clear();
+        _CombinePartners.Clear();
 
         if (_CombineRecipes == null) return;
 
@@ -419,11 +434,37 @@ public class CombineManager : MonoBehaviour
 
             var key = new PairKey(idA, idB);
 
-            if (_AllowedPairs.Add(key))
-                Debug.Log($"[Combine] Recipe registered: {key}");
-            else
-                Debug.LogWarning($"[Combine] Duplicate recipe skipped: {key} (Recipe={recipe.name})");
+            // 합체 조합 캐싱
+            _AllowedPairs.Add(key);
+
+            // 파트너 캐싱
+            AddPartner(idA, recipe.B);
+            AddPartner(idB, recipe.A);
         }
+    }
+
+    private void AddPartner(int keyId, SpawnObjectData partner)
+    {
+        if (partner == null) return;
+
+        if (!_CombinePartners.TryGetValue(keyId, out List<SpawnObjectData> list))
+        {
+            list = new List<SpawnObjectData>();
+            _CombinePartners.Add(keyId, list);
+        }
+
+        // 중복 방지 (레시피 중복 / (A,B)와 (B,A) 둘 다 등록 대비)
+        if (!list.Contains(partner))
+            list.Add(partner);
+    }
+
+    public IReadOnlyList<SpawnObjectData> GetCombinePartners(SpawnObjectData primary)
+    {
+        if (primary == null) return System.Array.Empty<SpawnObjectData>();
+
+        return _CombinePartners.TryGetValue(primary.ID, out List<SpawnObjectData> list)
+            ? list
+            : System.Array.Empty<SpawnObjectData>();
     }
 
     public bool CheckRecipe(SpawnObjectData a, SpawnObjectData b)
@@ -431,12 +472,4 @@ public class CombineManager : MonoBehaviour
         if (a == null || b == null) return false;
         return _AllowedPairs.Contains(new PairKey(a.ID, b.ID));
     }
-
-    // SpawnObject에서 바로 체크하고 싶으면 이 오버로드도 쓰면 편함
-    public bool CheckRecipe(SpawnObject a, SpawnObject b)
-    {
-        if (a == null || b == null) return false;
-        return CheckRecipe(a.Data, b.Data);
-    }
-
 }

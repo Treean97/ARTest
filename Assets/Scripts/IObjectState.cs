@@ -145,7 +145,7 @@ public class DetectCombineTargetState : IObjectState
     public void Enter()
     {
         _owner.transform.localRotation = _owner._ActiveModeRotation;
-        _owner.transform.localPosition = Vector3.zero;
+        _owner.transform.localPosition = Vector3.zero;        
     }
 
     public void UpdateState()
@@ -167,7 +167,7 @@ public class CombiningState : IObjectState
 
     public void Enter()
     {
-        _Routine = _owner.RunCoroutine(WaitAndComplete(_owner.CombineDuration));
+        _Routine = _owner.RunCoroutine(WaitAndComplete(_owner.CombineDuration));        
     }
 
     public void UpdateState() { }
@@ -193,7 +193,6 @@ public class CombinedState : IObjectState
 
     public void Enter()
     {
-        if (CombineManager.Instance != null)
         CombineManager.Instance.NotifyCombineCompleted();
     }
     public void UpdateState() { }
