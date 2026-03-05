@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnObject : MonoBehaviour
@@ -14,7 +15,7 @@ public class SpawnObject : MonoBehaviour
     public float RotationRestoreSpeed { get => _RotationRestoreSpeed; }
     [SerializeField] float _ModeChangeSpeed = 15f;
     public float ModeChangeSpeed { get => _ModeChangeSpeed; }
-    [SerializeField] float _SwipeSensitivity = 0.01f;
+    [SerializeField] float _SwipeSensitivity = 0.1f;
     public float SwipeSensitivity { get => _SwipeSensitivity; }
     [SerializeField] float _EffectDuration = 2f;
     public float EffectDuration { get => _EffectDuration; }
@@ -26,6 +27,9 @@ public class SpawnObject : MonoBehaviour
     [Header("이펙트")]
     [SerializeField] private SpawnObjectEffect _Effect;
     public SpawnObjectEffect Effect => _Effect;
+
+    [Header("미리보기")]
+    [SerializeField] private CombinePartnerPreview _CombinePartnerPreview;
 
     private IObjectState _CurrentState;
 
@@ -79,11 +83,8 @@ public class SpawnObject : MonoBehaviour
 
     public void OnTrackingLost()
     {
-        SetUp();
-
-        EnterDefaultState();
-        transform.localRotation = _DefaultModeRotation;
-
+        if (_CombinePartnerPreview != null) _CombinePartnerPreview.Hide();
+    
         gameObject.SetActive(false);
     }
 
@@ -141,5 +142,15 @@ public class SpawnObject : MonoBehaviour
         if (routine != null) StopCoroutine(routine);
     }
 
+    public void ShowCombinePreview(IReadOnlyList<Texture2D> textures, float widthMeters, float heightMeters, CombinePartnerPreview.PreviewSide side)
+    {
+        if (_CombinePartnerPreview == null) return;
+        _CombinePartnerPreview.ShowPartners(textures, widthMeters, heightMeters, side);
+    }
 
+    public void HideCombinePreview()
+    {
+        if (_CombinePartnerPreview == null) return;
+        _CombinePartnerPreview.Hide();
+    }    
 }

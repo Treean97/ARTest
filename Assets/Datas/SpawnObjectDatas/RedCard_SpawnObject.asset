@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: RedCard_SpawnObject
   m_EditorClassIdentifier: Assembly-CSharp::SpawnObjectData
   _ID: 1
+  _PreviewSprite: {fileID: 21300000, guid: c357cb94a6dd61e468db0a3596e38f74, type: 3}

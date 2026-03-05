@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: BlueCard_SpawnObject
   m_EditorClassIdentifier: Assembly-CSharp::SpawnObjectData
   _ID: 0
+  _PreviewSprite: {fileID: 21300000, guid: 6dd8f9e5381a3e34fbd147c5b477d38f, type: 3}

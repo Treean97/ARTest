@@ -131,7 +131,7 @@ public class ImageTracker : MonoBehaviour
         TrackedTarget target = controller.GetComponentInChildren<TrackedTarget>();
         if (target == null) return;
 
-        target.OnFound();
+        target.OnFound(controller);
         _State?.OnFound(target);
     }
 

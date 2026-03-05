@@ -173,9 +173,25 @@ public class CombineManager : MonoBehaviour
 
         _Phase = CombinePhase.Idle;
 
-        // 합체 플로우를 새로 시작하니 이펙트는 싹 정리
+        SpawnObject primaryObj = _PrimaryTarget.GetSpawnObject();
+
+        // 미리보기 세팅
+        if (primaryObj != null && primaryObj.Data != null)
+        {
+            Vector2 size = _PrimaryTarget.TargetSizeMeters;
+            var textures = BuildPartnerTextures(primaryObj.Data);
+
+            var side = (Random.value < 0.5f)
+                ? CombinePartnerPreview.PreviewSide.Left
+                : CombinePartnerPreview.PreviewSide.Right;
+
+            primaryObj.ShowCombinePreview(textures, size.x, size.y, side);
+        }
+
+        // 이펙트 초기화
         ApplyEffectPhase(CombinePhase.Idle);
 
+        // 트래커 합체 대상 탐지 모드로 변경
         _ImageTracker.EnterCombineSearching(_PrimaryTarget);
         SetSecondaryTarget(null);
     }
@@ -235,6 +251,9 @@ public class CombineManager : MonoBehaviour
         {
             Debug.Log("조합 가능");
         }
+
+        // 미리보기 끄기
+        primaryObj.HideCombinePreview();
 
         // 두 객체 모두 합체 대상을 찾은 상태로 전환
         primaryObj.EnterDetectCombineTargetState();
@@ -309,6 +328,7 @@ public class CombineManager : MonoBehaviour
         SpawnObject primaryObj = _PrimaryTarget.GetSpawnObject();
         if (primaryObj != null)
         {
+            primaryObj.HideCombinePreview();
             RestoreToOriginalParent(primaryObj);
             primaryObj.EnterDefaultState();
         }
@@ -348,10 +368,16 @@ public class CombineManager : MonoBehaviour
         if (_PrimaryTarget != null)
         {
             SpawnObject primaryObj = _PrimaryTarget.GetSpawnObject();
-            if (primaryObj != null)
+            if (primaryObj != null && primaryObj.Data != null)
             {
-                RestoreToOriginalParent(primaryObj);
-                primaryObj.EnterReadyToCombineState();
+                Vector2 size = _PrimaryTarget.TargetSizeMeters;
+                var textures = BuildPartnerTextures(primaryObj.Data);
+
+                var side = (Random.value < 0.5f)
+                    ? CombinePartnerPreview.PreviewSide.Left
+                    : CombinePartnerPreview.PreviewSide.Right;
+
+                primaryObj.ShowCombinePreview(textures, size.x, size.y, side);
             }
 
             _ImageTracker.EnterCombineSearching(_PrimaryTarget);
@@ -471,5 +497,25 @@ public class CombineManager : MonoBehaviour
     {
         if (a == null || b == null) return false;
         return _AllowedPairs.Contains(new PairKey(a.ID, b.ID));
+    }
+
+    private IReadOnlyList<Texture2D> BuildPartnerTextures(SpawnObjectData primary)
+    {
+        var partners = GetCombinePartners(primary);
+        if (partners == null || partners.Count == 0) return System.Array.Empty<Texture2D>();
+
+        List<Texture2D> list = new(partners.Count);
+        for (int i = 0; i < partners.Count; i++)
+        {
+            var p = partners[i];
+            if (p == null) continue;
+            if (p.PreviewSprite == null) continue;
+
+            var tex = p.PreviewSprite.texture;
+            if (tex == null) continue;
+
+            list.Add(tex);
+        }
+        return list.Count == 0 ? System.Array.Empty<Texture2D>() : list;
     }
 }
