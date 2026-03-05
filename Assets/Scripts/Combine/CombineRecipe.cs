@@ -8,6 +8,10 @@ public class CombineRecipe : ScriptableObject
     [SerializeField] private SpawnObjectData _A;
     [SerializeField] private SpawnObjectData _B;
 
+    [Header("결과(소환 대상)")]
+    [SerializeField] private List<SpawnObjectData> _Results = new();
+
     public SpawnObjectData A => _A;
     public SpawnObjectData B => _B;
+    public IReadOnlyList<SpawnObjectData> Results => _Results;
 }

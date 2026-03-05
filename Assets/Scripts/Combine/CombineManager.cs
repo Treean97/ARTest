@@ -9,8 +9,9 @@ public class CombineManager : MonoBehaviour
 
     [Header("합체 조합식")]
     [SerializeField] List<CombineRecipe> _CombineRecipes = new();
-    private readonly HashSet<PairKey> _AllowedPairs = new();
+    private readonly Dictionary<PairKey, List<SpawnObjectData>> _ResultsByPair = new();
     private readonly Dictionary<int, List<SpawnObjectData>> _CombinePartners = new();
+    
 
     [Header("합체 앵커")]
     [SerializeField] private CombineAnchor _CombineAnchor;
@@ -21,6 +22,9 @@ public class CombineManager : MonoBehaviour
 
     [Header("이펙트")]
     [SerializeField] private CombineEffect _CombineEffect;
+
+    [Header("디버그용 TrySummonUI")]
+    [SerializeField] private GameObject _TrySummonUI;
 
     private TrackedTarget _PrimaryTarget;
     public TrackedTarget PrimaryTarget => _PrimaryTarget;
@@ -445,8 +449,8 @@ public class CombineManager : MonoBehaviour
 
     private void CacheRecipes()
     {
-        _AllowedPairs.Clear();
         _CombinePartners.Clear();
+        _ResultsByPair.Clear();
 
         if (_CombineRecipes == null) return;
 
@@ -454,14 +458,19 @@ public class CombineManager : MonoBehaviour
         {
             if (recipe == null) continue;
             if (recipe.A == null || recipe.B == null) continue;
+            if (recipe.Results == null || recipe.Results.Count == 0) continue;
 
             int idA = recipe.A.ID;
             int idB = recipe.B.ID;
 
+            var keyAB = new PairKey(idA, idB);
+            var keyBA = new PairKey(idB, idA);
+
+            _ResultsByPair[keyAB] = new List<SpawnObjectData>(recipe.Results);
+            _ResultsByPair[keyBA] = new List<SpawnObjectData>(recipe.Results);
+
             var key = new PairKey(idA, idB);
 
-            // 합체 조합 캐싱
-            _AllowedPairs.Add(key);
 
             // 파트너 캐싱
             AddPartner(idA, recipe.B);
@@ -493,10 +502,18 @@ public class CombineManager : MonoBehaviour
             : System.Array.Empty<SpawnObjectData>();
     }
 
+    private IReadOnlyList<SpawnObjectData> GetSummonResults(SpawnObjectData a, SpawnObjectData b)
+    {
+        if (a == null || b == null) return System.Array.Empty<SpawnObjectData>();
+        return _ResultsByPair.TryGetValue(new PairKey(a.ID, b.ID), out var list)
+            ? (IReadOnlyList<SpawnObjectData>)list
+            : System.Array.Empty<SpawnObjectData>();
+    }
+
     public bool CheckRecipe(SpawnObjectData a, SpawnObjectData b)
     {
         if (a == null || b == null) return false;
-        return _AllowedPairs.Contains(new PairKey(a.ID, b.ID));
+        return _ResultsByPair.ContainsKey(new PairKey(a.ID, b.ID));
     }
 
     private IReadOnlyList<Texture2D> BuildPartnerTextures(SpawnObjectData primary)
